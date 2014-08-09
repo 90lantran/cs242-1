@@ -1,0 +1,10 @@
+.tab { 
+	margin-left: 5%;
+	margin-right: 50%;
+	border: 1px solid black;
+	background-color: cyan; 
+}
+
+.reply {
+	display:none
+}

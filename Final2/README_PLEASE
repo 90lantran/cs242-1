@@ -1,0 +1,37 @@
+------------HELPFUL EXPLANATION DOCUMENT FOR SUPER CHILL TA ONLY--------------------
+
+So, this week I was able to implement most of what I said that I would last week.
+My proposal has been updated. Take a look at that as well!
+
+You will notice there are very few additional tests. 
+This is because I relied on improving my manual test plan. 
+
+However, I did fix the robot tests completely this week, so you can run that to verify
+that it works correctly.
+
+Also, please read the manual test plan, as it will help you open and run 
+my code correcly if you want to see the results of my labor. 
+
+I'm very proud of what I did this week, although I wasn't able to implement things in exactly the way that you have mentioned it to me.
+
+Mario is constantly colliding with the ground because I need a condition
+to check against for falls that are not preceded by jumps, like when you
+fall off a ledge. This was a design decision.
+
+I am able to check multiple collisions at once, by storing all of the
+collisions for a moving block in a vector of CollisionTypes, which I defined myself.
+This may be slow, but it is only applied to moving enemies, so I don't think it's 
+a huge deal. 
+
+Also, did you know this is running at 50 frames per second? I've never played Mario
+like this.
+
+It took an extreme amount of effort to get collision detection working exactly correctly.
+I found that I was getting stuck inside bricks, falling through the ground, getting array 
+index exceptions. It was a mess, but I fixed it!
+
+Also, gravity was not the easiest. I plan to improve that later. 
+You will notice that the jumps are very high. Mario looks like a mosquito or something! 
+However, this does at least resemble the parabolic pattern of a jump. 
+
+Overall, I put a lot of effort into this. I hope it is satisfying!

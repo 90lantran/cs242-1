@@ -1,0 +1,178 @@
+\hypertarget{class_board}{\section{Board Class Reference}
+\label{class_board}\index{Board@{Board}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_board_aebf754535b8a0916d83200f22e18b7d2}{Board} (\hyperlink{class_board}{Board} other)
+\item 
+boolean \hyperlink{class_board_ae21b41dcb5ceec5c4e65b78cf1a7a4c2}{set\-Piece} (String piece, int rank, int file, Color player)
+\item 
+\hyperlink{class_piece}{Piece} \hyperlink{class_board_aea0f59c98263beace6443cd735d6805c}{get\-Piece} (int rank, int file)
+\item 
+boolean \hyperlink{class_board_ae0e4510755f6ae9d6ee19d583a11a33b}{move\-Piece} (int rstart, int fstart, int rtarget, int ftarget)
+\item 
+boolean \hyperlink{class_board_af4ea6b5281f049d33eec4833fa370765}{out\-Of\-Bounds} (int rank, int file)
+\item 
+void \hyperlink{class_board_a6a1cca4fd5509abd8ade2bb0c609bd20}{update\-Pieces} ()
+\item 
+boolean \hyperlink{class_board_a0b0b1d68cf48422fa95a14ce744c5ea2}{in\-Check} (Color player)
+\item 
+boolean \hyperlink{class_board_ab7e8e624384c4f17b31a931fbfb7e25d}{in\-Checkmate} (Color player)
+\item 
+boolean \hyperlink{class_board_a734bff11809a6e4b62c26456bffb966e}{in\-Stalemate} (Color player)
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_board_aebf754535b8a0916d83200f22e18b7d2}{\index{Board@{Board}!Board@{Board}}
+\index{Board@{Board}!Board@{Board}}
+\subsubsection[{Board}]{\setlength{\rightskip}{0pt plus 5cm}Board.\-Board (
+\begin{DoxyParamCaption}
+\item[{{\bf Board}}]{other}
+\end{DoxyParamCaption}
+)}}\label{class_board_aebf754535b8a0916d83200f22e18b7d2}
+
+\begin{DoxyParams}{Parameters}
+{\em other} & \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_board_aea0f59c98263beace6443cd735d6805c}{\index{Board@{Board}!get\-Piece@{get\-Piece}}
+\index{get\-Piece@{get\-Piece}!Board@{Board}}
+\subsubsection[{get\-Piece}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Piece} Board.\-get\-Piece (
+\begin{DoxyParamCaption}
+\item[{int}]{rank, }
+\item[{int}]{file}
+\end{DoxyParamCaption}
+)}}\label{class_board_aea0f59c98263beace6443cd735d6805c}
+
+\begin{DoxyParams}{Parameters}
+{\em rank} & \\
+\hline
+{\em file} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the piece at a given space 
+\end{DoxyReturn}
+\hypertarget{class_board_a0b0b1d68cf48422fa95a14ce744c5ea2}{\index{Board@{Board}!in\-Check@{in\-Check}}
+\index{in\-Check@{in\-Check}!Board@{Board}}
+\subsubsection[{in\-Check}]{\setlength{\rightskip}{0pt plus 5cm}boolean Board.\-in\-Check (
+\begin{DoxyParamCaption}
+\item[{Color}]{player}
+\end{DoxyParamCaption}
+)}}\label{class_board_a0b0b1d68cf48422fa95a14ce744c5ea2}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{class_board_ab7e8e624384c4f17b31a931fbfb7e25d}{\index{Board@{Board}!in\-Checkmate@{in\-Checkmate}}
+\index{in\-Checkmate@{in\-Checkmate}!Board@{Board}}
+\subsubsection[{in\-Checkmate}]{\setlength{\rightskip}{0pt plus 5cm}boolean Board.\-in\-Checkmate (
+\begin{DoxyParamCaption}
+\item[{Color}]{player}
+\end{DoxyParamCaption}
+)}}\label{class_board_ab7e8e624384c4f17b31a931fbfb7e25d}
+
+\begin{DoxyParams}{Parameters}
+{\em player} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{class_board_a734bff11809a6e4b62c26456bffb966e}{\index{Board@{Board}!in\-Stalemate@{in\-Stalemate}}
+\index{in\-Stalemate@{in\-Stalemate}!Board@{Board}}
+\subsubsection[{in\-Stalemate}]{\setlength{\rightskip}{0pt plus 5cm}boolean Board.\-in\-Stalemate (
+\begin{DoxyParamCaption}
+\item[{Color}]{player}
+\end{DoxyParamCaption}
+)}}\label{class_board_a734bff11809a6e4b62c26456bffb966e}
+
+\begin{DoxyParams}{Parameters}
+{\em player} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{class_board_ae0e4510755f6ae9d6ee19d583a11a33b}{\index{Board@{Board}!move\-Piece@{move\-Piece}}
+\index{move\-Piece@{move\-Piece}!Board@{Board}}
+\subsubsection[{move\-Piece}]{\setlength{\rightskip}{0pt plus 5cm}boolean Board.\-move\-Piece (
+\begin{DoxyParamCaption}
+\item[{int}]{rstart, }
+\item[{int}]{fstart, }
+\item[{int}]{rtarget, }
+\item[{int}]{ftarget}
+\end{DoxyParamCaption}
+)}}\label{class_board_ae0e4510755f6ae9d6ee19d583a11a33b}
+
+\begin{DoxyParams}{Parameters}
+{\em rstart} & \\
+\hline
+{\em fstart} & \\
+\hline
+{\em rtarget} & \\
+\hline
+{\em ftarget} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the move was successful false otherwise 
+\end{DoxyReturn}
+\hypertarget{class_board_af4ea6b5281f049d33eec4833fa370765}{\index{Board@{Board}!out\-Of\-Bounds@{out\-Of\-Bounds}}
+\index{out\-Of\-Bounds@{out\-Of\-Bounds}!Board@{Board}}
+\subsubsection[{out\-Of\-Bounds}]{\setlength{\rightskip}{0pt plus 5cm}boolean Board.\-out\-Of\-Bounds (
+\begin{DoxyParamCaption}
+\item[{int}]{rank, }
+\item[{int}]{file}
+\end{DoxyParamCaption}
+)}}\label{class_board_af4ea6b5281f049d33eec4833fa370765}
+
+\begin{DoxyParams}{Parameters}
+{\em rank} & \\
+\hline
+{\em file} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the position given is not a valid board position. 
+\end{DoxyReturn}
+\hypertarget{class_board_ae21b41dcb5ceec5c4e65b78cf1a7a4c2}{\index{Board@{Board}!set\-Piece@{set\-Piece}}
+\index{set\-Piece@{set\-Piece}!Board@{Board}}
+\subsubsection[{set\-Piece}]{\setlength{\rightskip}{0pt plus 5cm}boolean Board.\-set\-Piece (
+\begin{DoxyParamCaption}
+\item[{String}]{piece, }
+\item[{int}]{rank, }
+\item[{int}]{file, }
+\item[{Color}]{player}
+\end{DoxyParamCaption}
+)}}\label{class_board_ae21b41dcb5ceec5c4e65b78cf1a7a4c2}
+
+\begin{DoxyParams}{Parameters}
+{\em piece} & \\
+\hline
+{\em rank} & \\
+\hline
+{\em file} & \\
+\hline
+{\em player} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the piece was set successfully 
+\end{DoxyReturn}
+\hypertarget{class_board_a6a1cca4fd5509abd8ade2bb0c609bd20}{\index{Board@{Board}!update\-Pieces@{update\-Pieces}}
+\index{update\-Pieces@{update\-Pieces}!Board@{Board}}
+\subsubsection[{update\-Pieces}]{\setlength{\rightskip}{0pt plus 5cm}void Board.\-update\-Pieces (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_board_a6a1cca4fd5509abd8ade2bb0c609bd20}
+We need to maintain possible moves for each piece to detect game-\/ending conditions. 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/Board.\-java\end{DoxyCompactItemize}

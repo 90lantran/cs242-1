@@ -1,0 +1,28 @@
+{	
+	"data sources" : [
+		"http://www.gcmap.com/" ,
+		"http://www.theodora.com/country_digraphs.html" ,
+		"http://www.citypopulation.de/world/Agglomerations.html" ,
+		"http://www.mongabay.com/cities_urban_01.htm" ,
+		"http://en.wikipedia.org/wiki/Urban_agglomeration" ,
+		"http://www.worldtimezone.com/standard.html"
+	] , 
+	"metros" : [
+		{
+			"code" : "BLARGH" ,
+			"name" : "Roflcopter" ,
+			"country" : "USA" ,
+			"continent" : "North America" ,
+			"timezone" : 0 ,
+			"coordinates" : {"S" : 10, "W" : 20} ,
+			"population" : 1234567 ,
+			"region" : 1
+		} 
+	] ,
+	"routes" : [
+		{
+			"ports" : ["BLARGH" , "LIM"] ,
+			"distance" : 12598
+		} 
+	]
+}

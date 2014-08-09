@@ -1,0 +1,140 @@
+\hypertarget{classcontroller_1_1_user_input}{\section{controller.\-User\-Input Class Reference}
+\label{classcontroller_1_1_user_input}\index{controller.\-User\-Input@{controller.\-User\-Input}}
+}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{classcontroller_1_1_user_input_a37875bb372fb553dd8c0b00c446cd8c8}{initialize} ()
+\item 
+static void \hyperlink{classcontroller_1_1_user_input_a2edf82c008ecb8e16fc5677ae2245096}{initialize} (\hyperlink{classmodel_1_1_board}{Board} b)
+\item 
+static void \hyperlink{classcontroller_1_1_user_input_a8f95926a6a2584e7ec49c005003a20f7}{add\-Board} (J\-Frame frame)
+\item 
+static Mouse\-Listener \hyperlink{classcontroller_1_1_user_input_a0d697f5a1fee3566c41b1757485aaa94}{get\-Mouse} (final J\-Frame frame)
+\item 
+static Action\-Listener \hyperlink{classcontroller_1_1_user_input_a0d07f20118bcbfbef924603e367573d3}{get\-Button\-Listener} (final J\-Frame frame)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static String\mbox{[}$\,$\mbox{]} \hyperlink{classcontroller_1_1_user_input_ad5bc549a7fc015878009b793ea479871}{commands}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+Will 
+\end{DoxyAuthor}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classcontroller_1_1_user_input_a8f95926a6a2584e7ec49c005003a20f7}{\index{controller\-::\-User\-Input@{controller\-::\-User\-Input}!add\-Board@{add\-Board}}
+\index{add\-Board@{add\-Board}!controller::UserInput@{controller\-::\-User\-Input}}
+\subsubsection[{add\-Board}]{\setlength{\rightskip}{0pt plus 5cm}static void controller.\-User\-Input.\-add\-Board (
+\begin{DoxyParamCaption}
+\item[{J\-Frame}]{frame}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classcontroller_1_1_user_input_a8f95926a6a2584e7ec49c005003a20f7}
+Adds the current board representation to the background of the chess G\-U\-I 
+\begin{DoxyParams}{Parameters}
+{\em frame} & the frame for this instance of chess. \\
+\hline
+\end{DoxyParams}
+\hypertarget{classcontroller_1_1_user_input_a0d07f20118bcbfbef924603e367573d3}{\index{controller\-::\-User\-Input@{controller\-::\-User\-Input}!get\-Button\-Listener@{get\-Button\-Listener}}
+\index{get\-Button\-Listener@{get\-Button\-Listener}!controller::UserInput@{controller\-::\-User\-Input}}
+\subsubsection[{get\-Button\-Listener}]{\setlength{\rightskip}{0pt plus 5cm}static Action\-Listener controller.\-User\-Input.\-get\-Button\-Listener (
+\begin{DoxyParamCaption}
+\item[{final J\-Frame}]{frame}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classcontroller_1_1_user_input_a0d07f20118bcbfbef924603e367573d3}
+Creates a new button listener that will take all possible commands that we have programmed. 
+\begin{DoxyParams}{Parameters}
+{\em frame} & the frame that the actionlistener is anchored to \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the actionlistener to take button press input 
+\end{DoxyReturn}
+A function to handle the actions performed by the user relating to the window menu. \begin{DoxySeeAlso}{See Also}
+java.\-awt.\-event.\-Action\-Listener\-::action\-Performed(java.\-awt.\-event.\-Action\-Event) 
+\end{DoxySeeAlso}
+
+\begin{DoxyParams}{Parameters}
+{\em e} & the action event (button click)\\
+\hline
+\end{DoxyParams}
+Attempts to restart the current game based on an evaluation of the conditions in place. 
+\begin{DoxyParams}{Parameters}
+{\em frame} & the display of the game board\\
+\hline
+\end{DoxyParams}
+Finds the command in the list of programmed features matching the command requested by a button click. 
+\begin{DoxyParams}{Parameters}
+{\em e} & the action even (button click) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the index in the global command list
+\end{DoxyReturn}
+\hypertarget{classcontroller_1_1_user_input_a0d697f5a1fee3566c41b1757485aaa94}{\index{controller\-::\-User\-Input@{controller\-::\-User\-Input}!get\-Mouse@{get\-Mouse}}
+\index{get\-Mouse@{get\-Mouse}!controller::UserInput@{controller\-::\-User\-Input}}
+\subsubsection[{get\-Mouse}]{\setlength{\rightskip}{0pt plus 5cm}static Mouse\-Listener controller.\-User\-Input.\-get\-Mouse (
+\begin{DoxyParamCaption}
+\item[{final J\-Frame}]{frame}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classcontroller_1_1_user_input_a0d697f5a1fee3566c41b1757485aaa94}
+Gets the tile clicked by the mouse. \begin{DoxyReturn}{Returns}
+the mouselistener. 
+\end{DoxyReturn}
+A function called when the mouse is released after first being pressed. \begin{DoxySeeAlso}{See Also}
+java.\-awt.\-event.\-Mouse\-Listener\-::mouse\-Released(java.\-awt.\-event.\-Mouse\-Event) 
+\end{DoxySeeAlso}
+
+\begin{DoxyParams}{Parameters}
+{\em e} & the mouse\-Event containing the location clicked\\
+\hline
+\end{DoxyParams}
+Translates the floating point mouse coordinates to a pair of integers representing the (rank,file) position on the board. 
+\begin{DoxyParams}{Parameters}
+{\em e} & the mouse event (press or release) \\
+\hline
+{\em pressed} & true if the mouse is pressed down\\
+\hline
+\end{DoxyParams}
+\hypertarget{classcontroller_1_1_user_input_a37875bb372fb553dd8c0b00c446cd8c8}{\index{controller\-::\-User\-Input@{controller\-::\-User\-Input}!initialize@{initialize}}
+\index{initialize@{initialize}!controller::UserInput@{controller\-::\-User\-Input}}
+\subsubsection[{initialize}]{\setlength{\rightskip}{0pt plus 5cm}static void controller.\-User\-Input.\-initialize (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classcontroller_1_1_user_input_a37875bb372fb553dd8c0b00c446cd8c8}
+Initializes the chess board for a new chess game. Used for interaction between the M\-V\-C classes. \hypertarget{classcontroller_1_1_user_input_a2edf82c008ecb8e16fc5677ae2245096}{\index{controller\-::\-User\-Input@{controller\-::\-User\-Input}!initialize@{initialize}}
+\index{initialize@{initialize}!controller::UserInput@{controller\-::\-User\-Input}}
+\subsubsection[{initialize}]{\setlength{\rightskip}{0pt plus 5cm}static void controller.\-User\-Input.\-initialize (
+\begin{DoxyParamCaption}
+\item[{{\bf Board}}]{b}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classcontroller_1_1_user_input_a2edf82c008ecb8e16fc5677ae2245096}
+Initializes the chess board for a new game of chess. (Assumes that the board is currently empty. 
+\begin{DoxyParams}{Parameters}
+{\em board} & The board to set the pieces on \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classcontroller_1_1_user_input_ad5bc549a7fc015878009b793ea479871}{\index{controller\-::\-User\-Input@{controller\-::\-User\-Input}!commands@{commands}}
+\index{commands@{commands}!controller::UserInput@{controller\-::\-User\-Input}}
+\subsubsection[{commands}]{\setlength{\rightskip}{0pt plus 5cm}String \mbox{[}$\,$\mbox{]} controller.\-User\-Input.\-commands\hspace{0.3cm}{\ttfamily [static]}}}\label{classcontroller_1_1_user_input_ad5bc549a7fc015878009b793ea479871}
+{\bfseries Initial value\-:}
+\begin{DoxyCode}
+= \{ \textcolor{stringliteral}{"Forfeit"}, 
+                                        \textcolor{stringliteral}{"Restart"},
+                                        \textcolor{stringliteral}{"Scores"}, 
+                                        \textcolor{stringliteral}{"Undo"}    \}
+\end{DoxyCode}
+An array of possible button commands. 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/controller/User\-Input.\-java\end{DoxyCompactItemize}

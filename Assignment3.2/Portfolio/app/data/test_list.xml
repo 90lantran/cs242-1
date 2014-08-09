@@ -1,0 +1,415 @@
+<lists>
+<list
+   path="https://subversion.ews.illinois.edu/svn/sp14-cs242/hempy2">
+
+<entry
+   kind="file">
+<name>shopping/list2.txt</name>
+<size>82</size>
+<commit
+   revision="975">
+<author>hempy2</author>
+<date>2014-01-29T21:31:24.604801Z</date>
+</commit>
+</entry>
+<!-- We check this entry for deletion -->
+<entry
+   kind="file">
+<name>Assignment0/main.cpp</name>
+<size>23041</size>
+<commit
+   revision="900">
+<author>hempy2</author>
+<date>2014-01-30T04:34:54.097629Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/main.cpp</name>
+<size>23041</size>
+<commit
+   revision="900">
+<author>hempy2</author>
+<date>2014-11-30T04:34:54.097629Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/CSAir/.project</name>
+<size>376</size>
+<commit
+   revision="7748">
+<author>hempy2</author>
+<date>2014-03-07T15:36:32.156583Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/CSAir/.pydevproject</name>
+<size>470</size>
+<commit
+   revision="7748">
+<author>hempy2</author>
+<date>2014-03-07T15:36:32.156583Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/CSAir/examples</name>
+<commit
+   revision="7748">
+<author>hempy2</author>
+<date>2014-03-07T15:36:32.156583Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/CSAir/examples/dijikstra_example.png</name>
+<size>16878</size>
+<commit
+   revision="7748">
+<author>hempy2</author>
+<date>2014-03-07T15:36:32.156583Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/CSAir/input</name>
+<commit
+   revision="7748">
+<author>hempy2</author>
+<date>2014-03-07T15:36:32.156583Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/CSAir/input/additional_data.json</name>
+<size>674</size>
+<commit
+   revision="7748">
+<author>hempy2</author>
+<date>2014-03-07T15:36:32.156583Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/CSAir/input/cmi_hub.json</name>
+<size>1103</size>
+<commit
+   revision="7748">
+<author>hempy2</author>
+<date>2014-03-07T15:36:32.156583Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/CSAir/input/correct_url.txt</name>
+<size>873</size>
+<commit
+   revision="7748">
+<author>hempy2</author>
+<date>2014-03-07T15:36:32.156583Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/CSAir/input/help.txt</name>
+<size>1717</size>
+<commit
+   revision="7748">
+<author>hempy2</author>
+<date>2014-03-07T15:36:32.156583Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/CSAir/input/map_data.json</name>
+<size>16098</size>
+<commit
+   revision="7748">
+<author>hempy2</author>
+<date>2014-03-07T15:36:32.156583Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/CSAir/input/test.json</name>
+<size>30480</size>
+<commit
+   revision="7748">
+<author>hempy2</author>
+<date>2014-03-07T15:36:32.156583Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/CSAir/src</name>
+<commit
+   revision="7785">
+<author>hempy2</author>
+<date>2014-03-07T18:41:34.047768Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/CSAir/src/control</name>
+<commit
+   revision="7785">
+<author>hempy2</author>
+<date>2014-03-07T18:41:34.047768Z</date>
+</commit>
+</entry>
+
+<entry
+   kind="file">
+<name>Assignment2.1/CSAir/src/control/Input.py</name>
+<size>10869</size>
+<commit
+   revision="7785">
+<author>hempy2</author>
+<date>2014-03-07T18:41:34.047768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/CSAir/src/control/Input.py</name>
+<size>10869</size>
+<commit
+   revision="7725">
+<author>hempy2</author>
+<date>2016-02-03T18:41:34.047768Z</date>
+</commit>
+</entry>
+<!-- The above is a duplicate entry with slightly different values -->
+
+<entry
+   kind="file">
+<name>Assignment2.1/CSAir/src/control/__init__.py</name>
+<size>0</size>
+<commit
+   revision="7748">
+<author>hempy2</author>
+<date>2014-03-07T15:36:32.156583Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/CSAir/src/control/__init__.py</name>
+<size>29</size>
+<commit
+   revision="428">
+<author>hempy2</author>
+<date>2014-01-0T15:36:32.156583Z</date>
+</commit>
+</entry>
+<!-- Multiple edits to same file -->
+
+<entry
+   kind="file">
+<name>Assignment2.1/CSAir/src/control/test2.json</name>
+<size>12439</size>
+<commit
+   revision="7748">
+<author>hempy2</author>
+<date>2014-03-07T15:36:32.156583Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/CSAir/src/model</name>
+<commit
+   revision="7785">
+<author>hempy2</author>
+<date>2014-03-07T18:41:34.047768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/CSAir/src/model/AirGraph.py</name>
+<size>6551</size>
+<commit
+   revision="7785">
+<author>hempy2</author>
+<date>2014-03-07T18:41:34.047768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/CSAir/src/model/Edge.py</name>
+<size>952</size>
+<commit
+   revision="7748">
+<author>hempy2</author>
+<date>2014-03-07T15:36:32.156583Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/CSAir/src/model/Graph.py</name>
+<size>2430</size>
+<commit
+   revision="7748">
+<author>hempy2</author>
+<date>2014-03-07T15:36:32.156583Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/CSAir/src/model/Node.py</name>
+<size>434</size>
+<commit
+   revision="7748">
+<author>hempy2</author>
+<date>2014-03-07T15:36:32.156583Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/CSAir/src/model/__init__.py</name>
+<size>52</size>
+<commit
+   revision="7748">
+<author>hempy2</author>
+<date>2014-03-07T15:36:32.156583Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/CSAir/src/tests</name>
+<commit
+   revision="7785">
+<author>hempy2</author>
+<date>2014-03-07T18:41:34.047768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/CSAir/src/tests/AirGraphTest.py</name>
+<size>4266</size>
+<commit
+   revision="7748">
+<author>hempy2</author>
+<date>2014-03-07T15:36:32.156583Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/CSAir/src/tests/EdgeTest.py</name>
+<size>727</size>
+<commit
+   revision="7748">
+<author>hempy2</author>
+<date>2014-03-07T15:36:32.156583Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/CSAir/src/tests/GraphTest.py</name>
+<size>3574</size>
+<commit
+   revision="7785">
+<author>hempy2</author>
+<date>2014-03-07T18:41:34.047768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/CSAir/src/tests/InputTest.py</name>
+<size>5841</size>
+<commit
+   revision="7785">
+<author>hempy2</author>
+<date>2014-03-07T18:41:34.047768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/CSAir/src/tests/MapTest.py</name>
+<size>499</size>
+<commit
+   revision="7748">
+<author>hempy2</author>
+<date>2014-03-07T15:36:32.156583Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/CSAir/src/tests/NodeTest.py</name>
+<size>694</size>
+<commit
+   revision="7748">
+<author>hempy2</author>
+<date>2014-03-07T15:36:32.156583Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/CSAir/src/tests/StatsTest.py</name>
+<size>5803</size>
+<commit
+   revision="7748">
+<author>hempy2</author>
+<date>2014-03-07T15:36:32.156583Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/CSAir/src/tests/__init__.py</name>
+<size>52</size>
+<commit
+   revision="7748">
+<author>hempy2</author>
+<date>2014-03-07T15:36:32.156583Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/CSAir/src/view</name>
+<commit
+   revision="7785">
+<author>hempy2</author>
+<date>2014-03-07T18:41:34.047768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/CSAir/src/view/Map.py</name>
+<size>840</size>
+<commit
+   revision="7748">
+<author>hempy2</author>
+<date>2014-03-07T15:36:32.156583Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/CSAir/src/view/Stats.py</name>
+<size>8032</size>
+<commit
+   revision="7785">
+<author>hempy2</author>
+<date>2014-03-07T18:41:34.047768Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/CSAir/src/view/__init__.py</name>
+<size>0</size>
+<commit
+   revision="7748">
+<author>hempy2</author>
+<date>2014-03-07T15:36:32.156583Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/CSAir/test.json</name>
+<size>30485</size>
+<commit
+   revision="7748">
+<author>hempy2</author>
+<date>2014-03-07T15:36:32.156583Z</date>
+</commit>
+</entry>
+</list>
+</lists>

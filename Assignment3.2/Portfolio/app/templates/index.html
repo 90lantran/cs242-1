@@ -1,0 +1,82 @@
+<!-- Source copied from: http://getbootstrap.com/2.3.2/examples/hero.html# -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Portolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="../static/css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+    </style>
+    <link href="../static/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../static/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../static/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../static/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../static/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="../static/ico/apple-touch-icon-57-precomposed.png">
+                                  
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="/">My Portfolio</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <!-- Main hero unit for a primary marketing message or call to action -->
+      <div class="hero-unit">
+        <h1>Will Hempy</h1>
+		<p>A portfolio to show off all of the code that you have 
+		written over the duration of the the semester. 
+		We will start this will with basic PHP, HTML, and 
+		CSS, and move on to other web technologies 
+		such as JavaScript and SQL in future weeks.</p>
+        <a href="https://wiki.engr.illinois.edu/display/cs242sp14/Assignment+3.0" 
+           class="btn btn-primary btn-large">Learn more &raquo;
+        </a></p>
+      </div>
+
+      <!-- Example row of columns -->
+      <div class="row">
+      	{% for title in assignments %}
+        <div class="span4">
+          <h2>{{title}}</h2>
+          <p>Date: 	  {{assignments[title]['date']}}</p>
+          <p>Version: {{assignments[title]['version']}}</p>
+          <p>Summary: {{assignments[title]['summary']}}</p>
+          <p><a class="btn" href="/{{title}}">View details &raquo;</a></p>
+        </div>
+        {% endfor %}
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>&copy; Company 2013</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+
+  </body>
+</html>

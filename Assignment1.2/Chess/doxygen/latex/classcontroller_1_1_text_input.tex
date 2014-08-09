@@ -1,0 +1,167 @@
+\hypertarget{classcontroller_1_1_text_input}{\section{controller.\-Text\-Input Class Reference}
+\label{classcontroller_1_1_text_input}\index{controller.\-Text\-Input@{controller.\-Text\-Input}}
+}
+Inheritance diagram for controller.\-Text\-Input\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classcontroller_1_1_text_input}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classcontroller_1_1_text_input_a76a124852e34a64a21b5b74ce812ddaa}{Text\-Input} ()
+\item 
+void \hyperlink{classcontroller_1_1_text_input_adcac245938697e197f542f570cffd793}{action\-Performed} (Action\-Event e)
+\item 
+void \hyperlink{classcontroller_1_1_text_input_aacfb1f19223c451a9440dc561b17cf98}{focus\-Gained} (Focus\-Event e)
+\item 
+void \hyperlink{classcontroller_1_1_text_input_ad1ff76e878ea676f80232d5796f0c006}{focus\-Lost} (Focus\-Event e)
+\item 
+String\mbox{[}$\,$\mbox{]} \hyperlink{classcontroller_1_1_text_input_ab178b0020e8da80e7f355b8d80282e2a}{get\-Values} (int x)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{classcontroller_1_1_text_input_a5ae92539dc711f6d646808902a9a9762}{create\-And\-Show\-G\-U\-I} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+J\-Component \hyperlink{classcontroller_1_1_text_input_a4072a685676c67fe9a8d6b3b39fe95c1}{create\-Buttons} ()
+\item 
+Mask\-Formatter \hyperlink{classcontroller_1_1_text_input_ab347a852362f9e4796696bb3159e1649}{create\-Formatter} (String s)
+\item 
+void \hyperlink{classcontroller_1_1_text_input_a808ce5525f1ef4685294c487f8b0e8d4}{select\-It\-Later} (Component c)
+\item 
+J\-Component \hyperlink{classcontroller_1_1_text_input_a98407daf22f28cc3f219548afd455394}{create\-Entry\-Fields} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Text\-Input.\-java uses these additional files\-: Spring\-Utilities.\-java ... 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classcontroller_1_1_text_input_a76a124852e34a64a21b5b74ce812ddaa}{\index{controller\-::\-Text\-Input@{controller\-::\-Text\-Input}!Text\-Input@{Text\-Input}}
+\index{Text\-Input@{Text\-Input}!controller::TextInput@{controller\-::\-Text\-Input}}
+\subsubsection[{Text\-Input}]{\setlength{\rightskip}{0pt plus 5cm}controller.\-Text\-Input.\-Text\-Input (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classcontroller_1_1_text_input_a76a124852e34a64a21b5b74ce812ddaa}
+Input constructor. Creates a item to add to the ending frame. Don't allow us to stretch vertically. 
+
+\subsection{Member Function Documentation}
+\hypertarget{classcontroller_1_1_text_input_adcac245938697e197f542f570cffd793}{\index{controller\-::\-Text\-Input@{controller\-::\-Text\-Input}!action\-Performed@{action\-Performed}}
+\index{action\-Performed@{action\-Performed}!controller::TextInput@{controller\-::\-Text\-Input}}
+\subsubsection[{action\-Performed}]{\setlength{\rightskip}{0pt plus 5cm}void controller.\-Text\-Input.\-action\-Performed (
+\begin{DoxyParamCaption}
+\item[{Action\-Event}]{e}
+\end{DoxyParamCaption}
+)}}\label{classcontroller_1_1_text_input_adcac245938697e197f542f570cffd793}
+Called when the user clicks the button or presses Enter in a text field. 
+\begin{DoxyParams}{Parameters}
+{\em e} & the action event triggered by the user \\
+\hline
+\end{DoxyParams}
+\hypertarget{classcontroller_1_1_text_input_a5ae92539dc711f6d646808902a9a9762}{\index{controller\-::\-Text\-Input@{controller\-::\-Text\-Input}!create\-And\-Show\-G\-U\-I@{create\-And\-Show\-G\-U\-I}}
+\index{create\-And\-Show\-G\-U\-I@{create\-And\-Show\-G\-U\-I}!controller::TextInput@{controller\-::\-Text\-Input}}
+\subsubsection[{create\-And\-Show\-G\-U\-I}]{\setlength{\rightskip}{0pt plus 5cm}static void controller.\-Text\-Input.\-create\-And\-Show\-G\-U\-I (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classcontroller_1_1_text_input_a5ae92539dc711f6d646808902a9a9762}
+Create the G\-U\-I and show it. For thread safety, this method should be invoked from the event dispatch thread. Create and set up the window. Add contents to the window. Display the window. \hypertarget{classcontroller_1_1_text_input_a4072a685676c67fe9a8d6b3b39fe95c1}{\index{controller\-::\-Text\-Input@{controller\-::\-Text\-Input}!create\-Buttons@{create\-Buttons}}
+\index{create\-Buttons@{create\-Buttons}!controller::TextInput@{controller\-::\-Text\-Input}}
+\subsubsection[{create\-Buttons}]{\setlength{\rightskip}{0pt plus 5cm}J\-Component controller.\-Text\-Input.\-create\-Buttons (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{classcontroller_1_1_text_input_a4072a685676c67fe9a8d6b3b39fe95c1}
+Generates the buttons for the text input prompt. Match the Spring\-Layout's gap, subtracting 5 to make up for the default gap Flow\-Layout provides. \begin{DoxyReturn}{Returns}
+the new backgrond component for the text box. 
+\end{DoxyReturn}
+\hypertarget{classcontroller_1_1_text_input_a98407daf22f28cc3f219548afd455394}{\index{controller\-::\-Text\-Input@{controller\-::\-Text\-Input}!create\-Entry\-Fields@{create\-Entry\-Fields}}
+\index{create\-Entry\-Fields@{create\-Entry\-Fields}!controller::TextInput@{controller\-::\-Text\-Input}}
+\subsubsection[{create\-Entry\-Fields}]{\setlength{\rightskip}{0pt plus 5cm}J\-Component controller.\-Text\-Input.\-create\-Entry\-Fields (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{classcontroller_1_1_text_input_a98407daf22f28cc3f219548afd455394}
+Associate label/field pairs, add everything, and lay it out. Add listeners to each field. \begin{DoxyReturn}{Returns}
+the component containing the labels for the text input. 
+\end{DoxyReturn}
+\hypertarget{classcontroller_1_1_text_input_ab347a852362f9e4796696bb3159e1649}{\index{controller\-::\-Text\-Input@{controller\-::\-Text\-Input}!create\-Formatter@{create\-Formatter}}
+\index{create\-Formatter@{create\-Formatter}!controller::TextInput@{controller\-::\-Text\-Input}}
+\subsubsection[{create\-Formatter}]{\setlength{\rightskip}{0pt plus 5cm}Mask\-Formatter controller.\-Text\-Input.\-create\-Formatter (
+\begin{DoxyParamCaption}
+\item[{String}]{s}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{classcontroller_1_1_text_input_ab347a852362f9e4796696bb3159e1649}
+A convenience method for creating a Mask\-Formatter. 
+\begin{DoxyParams}{Parameters}
+{\em s} & the string for creating a new formatter \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the resulting formatter 
+\end{DoxyReturn}
+\hypertarget{classcontroller_1_1_text_input_aacfb1f19223c451a9440dc561b17cf98}{\index{controller\-::\-Text\-Input@{controller\-::\-Text\-Input}!focus\-Gained@{focus\-Gained}}
+\index{focus\-Gained@{focus\-Gained}!controller::TextInput@{controller\-::\-Text\-Input}}
+\subsubsection[{focus\-Gained}]{\setlength{\rightskip}{0pt plus 5cm}void controller.\-Text\-Input.\-focus\-Gained (
+\begin{DoxyParamCaption}
+\item[{Focus\-Event}]{e}
+\end{DoxyParamCaption}
+)}}\label{classcontroller_1_1_text_input_aacfb1f19223c451a9440dc561b17cf98}
+Called when one of the fields gets the focus so that we can select the focused field. 
+\begin{DoxyParams}{Parameters}
+{\em e} & an event that occurs when text is added to the input pane \\
+\hline
+\end{DoxyParams}
+\hypertarget{classcontroller_1_1_text_input_ad1ff76e878ea676f80232d5796f0c006}{\index{controller\-::\-Text\-Input@{controller\-::\-Text\-Input}!focus\-Lost@{focus\-Lost}}
+\index{focus\-Lost@{focus\-Lost}!controller::TextInput@{controller\-::\-Text\-Input}}
+\subsubsection[{focus\-Lost}]{\setlength{\rightskip}{0pt plus 5cm}void controller.\-Text\-Input.\-focus\-Lost (
+\begin{DoxyParamCaption}
+\item[{Focus\-Event}]{e}
+\end{DoxyParamCaption}
+)}}\label{classcontroller_1_1_text_input_ad1ff76e878ea676f80232d5796f0c006}
+I\-G\-N\-O\-R\-E T\-H\-I\-S. Needed for Focus\-Listener interface. \begin{DoxySeeAlso}{See Also}
+java.\-awt.\-event.\-Focus\-Listener\-::focus\-Lost(java.\-awt.\-event.\-Focus\-Event) 
+\end{DoxySeeAlso}
+
+\begin{DoxyParams}{Parameters}
+{\em e} & the focus event that has been lost \\
+\hline
+\end{DoxyParams}
+\hypertarget{classcontroller_1_1_text_input_ab178b0020e8da80e7f355b8d80282e2a}{\index{controller\-::\-Text\-Input@{controller\-::\-Text\-Input}!get\-Values@{get\-Values}}
+\index{get\-Values@{get\-Values}!controller::TextInput@{controller\-::\-Text\-Input}}
+\subsubsection[{get\-Values}]{\setlength{\rightskip}{0pt plus 5cm}String \mbox{[}$\,$\mbox{]} controller.\-Text\-Input.\-get\-Values (
+\begin{DoxyParamCaption}
+\item[{int}]{x}
+\end{DoxyParamCaption}
+)}}\label{classcontroller_1_1_text_input_ab178b0020e8da80e7f355b8d80282e2a}
+A function to generate input storage for the text. 
+\begin{DoxyParams}{Parameters}
+{\em x} & the number of values to generate \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a new string array of values 
+\end{DoxyReturn}
+\hypertarget{classcontroller_1_1_text_input_a808ce5525f1ef4685294c487f8b0e8d4}{\index{controller\-::\-Text\-Input@{controller\-::\-Text\-Input}!select\-It\-Later@{select\-It\-Later}}
+\index{select\-It\-Later@{select\-It\-Later}!controller::TextInput@{controller\-::\-Text\-Input}}
+\subsubsection[{select\-It\-Later}]{\setlength{\rightskip}{0pt plus 5cm}void controller.\-Text\-Input.\-select\-It\-Later (
+\begin{DoxyParamCaption}
+\item[{Component}]{c}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{classcontroller_1_1_text_input_a808ce5525f1ef4685294c487f8b0e8d4}
+Workaround for formatted text field focus side effects. 
+\begin{DoxyParams}{Parameters}
+{\em c} & the component that has been selected. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/controller/Text\-Input.\-java\end{DoxyCompactItemize}

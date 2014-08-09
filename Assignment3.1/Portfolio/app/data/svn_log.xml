@@ -1,0 +1,3699 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<log>
+<logentry
+   revision="9358">
+<author>hempy2</author>
+<date>2014-03-21T07:17:52.644686Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/hempy2/Assignment3.1/Portfolio/app/data/flaskr.db</path>
+<path
+   kind="file"
+   action="M">/hempy2/Assignment3.1/Portfolio/app/data/svn_list.xml</path>
+<path
+   kind="file"
+   action="M">/hempy2/Assignment3.1/Portfolio/app/data/svn_log.xml</path>
+<path
+   kind="file"
+   action="M">/hempy2/Assignment3.1/Portfolio/app/main.py</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="9357">
+<author>hempy2</author>
+<date>2014-03-21T07:09:37.141278Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment3.1</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment3.1/Portfolio</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment3.1/Portfolio/.project</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment3.1/Portfolio/.pydevproject</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment3.1/Portfolio/app</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment3.1/Portfolio/app/__init__.py</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment3.1/Portfolio/app/data</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment3.1/Portfolio/app/data/flaskr.db</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment3.1/Portfolio/app/data/schema.sql</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment3.1/Portfolio/app/data/svn_list.xml</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment3.1/Portfolio/app/data/svn_log.xml</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment3.1/Portfolio/app/data/test_list.xml</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment3.1/Portfolio/app/data/test_log.xml</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment3.1/Portfolio/app/main.py</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment3.1/Portfolio/app/main_test.py</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment3.1/Portfolio/app/static</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment3.1/Portfolio/app/static/css</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment3.1/Portfolio/app/static/css/bootstrap-responsive.css</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment3.1/Portfolio/app/static/css/bootstrap-responsive.min.css</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment3.1/Portfolio/app/static/css/bootstrap.css</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment3.1/Portfolio/app/static/css/bootstrap.min.css</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment3.1/Portfolio/app/static/css/reply.css</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment3.1/Portfolio/app/static/img</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment3.1/Portfolio/app/static/img/glyphicons-halflings-white.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment3.1/Portfolio/app/static/img/glyphicons-halflings.png</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment3.1/Portfolio/app/static/js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment3.1/Portfolio/app/static/js/bootstrap.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment3.1/Portfolio/app/static/js/bootstrap.min.js</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment3.1/Portfolio/app/templates</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment3.1/Portfolio/app/templates/assign.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment3.1/Portfolio/app/templates/file.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment3.1/Portfolio/app/templates/index.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment3.1/Portfolio/app/templates/show_entries.html</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment3.1/Portfolio/app/tests</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment3.1/Portfolio/app/tests/__init__.py</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment3.1/Portfolio/app/tests/parser_test.py</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment3.1/Portfolio/app/web</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment3.1/Portfolio/app/web/__init__.py</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment3.1/Portfolio/app/web/database.py</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment3.1/Portfolio/app/web/parser.py</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="8614">
+<author>hempy2</author>
+<date>2014-03-14T14:47:02.483921Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment3.0</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment3.0/Portfolio</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment3.0/Portfolio/.project</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment3.0/Portfolio/.pydevproject</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment3.0/Portfolio/data</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment3.0/Portfolio/data/svn_list.xml</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment3.0/Portfolio/data/svn_log.xml</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment3.0/Portfolio/data/test_list.xml</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment3.0/Portfolio/data/test_log.xml</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment3.0/Portfolio/main.py</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment3.0/Portfolio/static</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment3.0/Portfolio/static/css</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment3.0/Portfolio/static/css/bootstrap-responsive.css</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment3.0/Portfolio/static/css/bootstrap-responsive.min.css</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment3.0/Portfolio/static/css/bootstrap.css</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment3.0/Portfolio/static/css/bootstrap.min.css</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment3.0/Portfolio/static/img</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment3.0/Portfolio/static/img/glyphicons-halflings-white.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment3.0/Portfolio/static/img/glyphicons-halflings.png</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment3.0/Portfolio/static/js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment3.0/Portfolio/static/js/bootstrap.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment3.0/Portfolio/static/js/bootstrap.min.js</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment3.0/Portfolio/templates</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment3.0/Portfolio/templates/assign.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment3.0/Portfolio/templates/file.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment3.0/Portfolio/templates/index.html</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment3.0/Portfolio/tests</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment3.0/Portfolio/tests/ParserTest.py</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment3.0/Portfolio/tests/__init__.py</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment3.0/Portfolio/web</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment3.0/Portfolio/web/Parser.py</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment3.0/Portfolio/web/__init__.py</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7785">
+<author>hempy2</author>
+<date>2014-03-07T18:41:34.047768Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/hempy2/Assignment2.1/CSAir/src/control/Input.py</path>
+<path
+   kind="file"
+   action="M">/hempy2/Assignment2.1/CSAir/src/model/AirGraph.py</path>
+<path
+   kind="file"
+   action="M">/hempy2/Assignment2.1/CSAir/src/tests/GraphTest.py</path>
+<path
+   kind="file"
+   action="M">/hempy2/Assignment2.1/CSAir/src/tests/InputTest.py</path>
+<path
+   kind="file"
+   action="M">/hempy2/Assignment2.1/CSAir/src/view/Stats.py</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7748">
+<author>hempy2</author>
+<date>2014-03-07T15:36:32.156583Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment2.1</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment2.1/CSAir</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment2.1/CSAir/.project</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment2.1/CSAir/.pydevproject</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment2.1/CSAir/examples</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment2.1/CSAir/examples/dijikstra_example.png</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment2.1/CSAir/input</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment2.1/CSAir/input/additional_data.json</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment2.1/CSAir/input/cmi_hub.json</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment2.1/CSAir/input/correct_url.txt</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment2.1/CSAir/input/help.txt</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment2.1/CSAir/input/map_data.json</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment2.1/CSAir/input/test.json</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment2.1/CSAir/src</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment2.1/CSAir/src/control</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment2.1/CSAir/src/control/Input.py</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment2.1/CSAir/src/control/__init__.py</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment2.1/CSAir/src/control/test2.json</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment2.1/CSAir/src/model</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment2.1/CSAir/src/model/AirGraph.py</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment2.1/CSAir/src/model/Edge.py</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment2.1/CSAir/src/model/Graph.py</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment2.1/CSAir/src/model/Node.py</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment2.1/CSAir/src/model/__init__.py</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment2.1/CSAir/src/tests</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment2.1/CSAir/src/tests/AirGraphTest.py</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment2.1/CSAir/src/tests/EdgeTest.py</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment2.1/CSAir/src/tests/GraphTest.py</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment2.1/CSAir/src/tests/InputTest.py</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment2.1/CSAir/src/tests/MapTest.py</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment2.1/CSAir/src/tests/NodeTest.py</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment2.1/CSAir/src/tests/StatsTest.py</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment2.1/CSAir/src/tests/__init__.py</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment2.1/CSAir/src/view</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment2.1/CSAir/src/view/Map.py</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment2.1/CSAir/src/view/Stats.py</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment2.1/CSAir/src/view/__init__.py</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment2.1/CSAir/test.json</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7105">
+<author>hempy2</author>
+<date>2014-03-02T21:53:05.149405Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/hempy2/Assignment2.0/CSAir/src/control/Input.py</path>
+<path
+   kind="file"
+   action="M">/hempy2/Assignment2.0/CSAir/src/view/Stats.py</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="6912">
+<author>hempy2</author>
+<date>2014-02-28T15:39:19.506494Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/hempy2/Assignment2.0/CSAir/input/help.txt</path>
+<path
+   kind="file"
+   action="M">/hempy2/Assignment2.0/CSAir/src/control/Input.py</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="6907">
+<author>hempy2</author>
+<date>2014-02-28T15:28:19.528674Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment2.0</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment2.0/CSAir</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment2.0/CSAir/.project</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment2.0/CSAir/.pydevproject</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment2.0/CSAir/input</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment2.0/CSAir/input/help.txt</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment2.0/CSAir/input/map_data.json</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment2.0/CSAir/src</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment2.0/CSAir/src/control</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment2.0/CSAir/src/control/Input.py</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment2.0/CSAir/src/control/__init__.py</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment2.0/CSAir/src/model</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment2.0/CSAir/src/model/Graph.py</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment2.0/CSAir/src/model/__init__.py</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment2.0/CSAir/src/tests</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment2.0/CSAir/src/tests/GraphTest.py</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment2.0/CSAir/src/tests/StatisticsTest.py</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment2.0/CSAir/src/tests/__init__.py</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment2.0/CSAir/src/view</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment2.0/CSAir/src/view/CircleMap.py</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment2.0/CSAir/src/view/Stats.py</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment2.0/CSAir/src/view/__init__.py</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="6022">
+<author>hempy2</author>
+<date>2014-02-21T14:20:28.754343Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment1.2</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment1.2/Chess</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/.classpath</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/.project</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment1.2/Chess/.settings</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/.settings/org.eclipse.jdt.core.prefs</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment1.2/Chess/bin</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment1.2/Chess/bin/controller</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/bin/controller/SpringUtilities.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/bin/controller/TextInput$1.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/bin/controller/TextInput$2.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/bin/controller/TextInput.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/bin/controller/UserInput$1.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/bin/controller/UserInput$2.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/bin/controller/UserInput.class</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment1.2/Chess/bin/model</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/bin/model/Board.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/bin/model/Chess.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/bin/model/Space.class</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment1.2/Chess/bin/pieces</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/bin/pieces/Bishop.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/bin/pieces/King.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/bin/pieces/Knight.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/bin/pieces/Pawn.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/bin/pieces/Piece.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/bin/pieces/Queen.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/bin/pieces/Rock.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/bin/pieces/Rook.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/bin/pieces/Sentry.class</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment1.2/Chess/bin/tests</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/bin/tests/AllTests.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/bin/tests/BishopTest.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/bin/tests/BoardTest.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/bin/tests/ChessTest.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/bin/tests/KingTest.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/bin/tests/KnightTest.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/bin/tests/PawnTest.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/bin/tests/PieceTest.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/bin/tests/QueenTest.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/bin/tests/RockTest.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/bin/tests/RookTest.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/bin/tests/SentryTest.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/bin/tests/UserInputTest.class</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment1.2/Chess/bin/view</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/bin/view/ChessGUI.class</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment1.2/Chess/doc</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doc/Board.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doc/Chess.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doc/ChessTest.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doc/Pair.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doc/Piece.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doc/PieceTest.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doc/allclasses-frame.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doc/allclasses-noframe.html</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment1.2/Chess/doc/class-use</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doc/class-use/Board.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doc/class-use/Chess.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doc/class-use/ChessTest.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doc/class-use/Pair.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doc/class-use/Piece.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doc/class-use/PieceTest.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doc/constant-values.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doc/deprecated-list.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doc/help-doc.html</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment1.2/Chess/doc/index-files</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doc/index-files/index-1.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doc/index-files/index-2.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doc/index-files/index-3.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doc/index-files/index-4.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doc/index-files/index-5.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doc/index-files/index-6.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doc/index-files/index-7.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doc/index.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doc/overview-tree.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doc/package-frame.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doc/package-list</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doc/package-summary.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doc/package-tree.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doc/package-use.html</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment1.2/Chess/doc/resources</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doc/resources/background.gif</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doc/resources/tab.gif</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doc/resources/titlebar.gif</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doc/resources/titlebar_end.gif</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doc/stylesheet.css</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/Doxyfile</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/annotated.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/bc_s.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/bdwn.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/class_bishop-members.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/class_bishop.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/class_bishop.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/class_board-members.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/class_board.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/class_board.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/class_chess-members.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/class_chess.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/class_king-members.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/class_king.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/class_king.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/class_knight-members.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/class_knight.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/class_knight.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/class_pawn-members.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/class_pawn.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/class_pawn.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/class_piece-members.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/class_piece.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/class_piece.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/class_queen-members.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/class_queen.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/class_queen.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/class_rock-members.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/class_rock.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/class_rock.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/class_rook-members.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/class_rook.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/class_rook.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/class_sentry-members.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/class_sentry.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/class_sentry.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/class_space-members.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/class_space.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classcontroller_1_1_spring_utilities-members.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classcontroller_1_1_spring_utilities.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classcontroller_1_1_text_input-members.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classcontroller_1_1_text_input.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classcontroller_1_1_text_input.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classcontroller_1_1_user_input-members.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classcontroller_1_1_user_input.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classes.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classmodel_1_1_board-members.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classmodel_1_1_board.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classmodel_1_1_board.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classmodel_1_1_chess-members.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classmodel_1_1_chess.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classmodel_1_1_space-members.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classmodel_1_1_space.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classpieces_1_1_bishop-members.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classpieces_1_1_bishop.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classpieces_1_1_bishop.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classpieces_1_1_king-members.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classpieces_1_1_king.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classpieces_1_1_king.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classpieces_1_1_knight-members.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classpieces_1_1_knight.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classpieces_1_1_knight.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classpieces_1_1_pawn-members.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classpieces_1_1_pawn.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classpieces_1_1_pawn.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classpieces_1_1_piece-members.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classpieces_1_1_piece.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classpieces_1_1_piece.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classpieces_1_1_queen-members.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classpieces_1_1_queen.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classpieces_1_1_queen.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classpieces_1_1_rock-members.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classpieces_1_1_rock.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classpieces_1_1_rock.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classpieces_1_1_rook-members.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classpieces_1_1_rook.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classpieces_1_1_rook.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classpieces_1_1_sentry-members.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classpieces_1_1_sentry.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classpieces_1_1_sentry.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classtests_1_1_all_tests.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classtests_1_1_bishop_test-members.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classtests_1_1_bishop_test.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classtests_1_1_board_test-members.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classtests_1_1_board_test.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classtests_1_1_chess_test-members.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classtests_1_1_chess_test.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classtests_1_1_king_test-members.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classtests_1_1_king_test.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classtests_1_1_knight_test-members.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classtests_1_1_knight_test.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classtests_1_1_pawn_test-members.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classtests_1_1_pawn_test.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classtests_1_1_piece_test-members.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classtests_1_1_piece_test.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classtests_1_1_queen_test-members.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classtests_1_1_queen_test.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classtests_1_1_rock_test-members.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classtests_1_1_rock_test.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classtests_1_1_rook_test-members.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classtests_1_1_rook_test.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classtests_1_1_sentry_test-members.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classtests_1_1_sentry_test.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classtests_1_1_user_input_test-members.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classtests_1_1_user_input_test.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classview_1_1_chess_g_u_i-members.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/classview_1_1_chess_g_u_i.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/closed.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/dir_34caaf82b25d83e62b370a0c6fbb4fdf.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/dir_41ef5d8a90b9cc03a02949a5c062e6f0.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/dir_5dd65160827af56e6353642206b80129.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/dir_68267d1309a1af8e8297ef4c3efbcdba.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/dir_b39b5091e8d1d2be4b7fc59d57749634.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/dir_d93a1d4020dea85bb71b237545b5e722.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/doxygen.css</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/doxygen.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/dynsections.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/ftv2blank.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/ftv2cl.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/ftv2doc.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/ftv2folderclosed.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/ftv2folderopen.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/ftv2lastnode.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/ftv2link.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/ftv2mlastnode.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/ftv2mnode.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/ftv2mo.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/ftv2node.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/ftv2ns.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/ftv2plastnode.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/ftv2pnode.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/ftv2splitbar.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/ftv2vertline.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/functions.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/functions_func.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/functions_vars.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/hierarchy.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/index.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/jquery.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/nav_f.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/nav_g.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/nav_h.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/open.png</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/all_0.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/all_0.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/all_1.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/all_1.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/all_10.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/all_10.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/all_11.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/all_11.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/all_2.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/all_2.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/all_3.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/all_3.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/all_4.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/all_4.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/all_5.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/all_5.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/all_6.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/all_6.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/all_7.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/all_7.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/all_8.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/all_8.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/all_9.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/all_9.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/all_a.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/all_a.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/all_b.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/all_b.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/all_c.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/all_c.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/all_d.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/all_d.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/all_e.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/all_e.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/all_f.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/all_f.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/classes_0.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/classes_0.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/classes_1.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/classes_1.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/classes_2.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/classes_2.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/classes_3.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/classes_3.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/classes_4.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/classes_4.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/classes_5.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/classes_5.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/classes_6.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/classes_6.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/classes_7.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/classes_7.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/classes_8.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/classes_8.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/classes_9.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/classes_9.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/close.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/functions_0.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/functions_0.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/functions_1.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/functions_1.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/functions_2.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/functions_2.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/functions_3.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/functions_3.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/functions_4.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/functions_4.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/functions_5.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/functions_5.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/functions_6.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/functions_6.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/functions_7.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/functions_7.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/functions_8.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/functions_8.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/functions_9.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/functions_9.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/functions_a.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/functions_a.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/functions_b.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/functions_b.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/functions_c.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/functions_c.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/functions_d.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/functions_d.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/functions_e.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/functions_e.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/functions_f.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/functions_f.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/mag_sel.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/nomatches.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/search.css</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/search.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/search_l.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/search_m.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/search_r.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/variables_0.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/variables_0.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/variables_1.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/search/variables_1.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/sync_off.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/sync_on.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/tab_a.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/tab_b.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/tab_h.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/tab_s.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/html/tabs.css</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/index.html - Shortcut.lnk</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/Makefile</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/annotated.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/class_bishop.eps</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/class_bishop.pdf</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/class_bishop.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/class_board.eps</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/class_board.pdf</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/class_board.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/class_chess.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/class_king.eps</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/class_king.pdf</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/class_king.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/class_knight.eps</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/class_knight.pdf</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/class_knight.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/class_pawn.eps</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/class_pawn.pdf</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/class_pawn.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/class_piece.eps</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/class_piece.pdf</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/class_piece.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/class_queen.eps</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/class_queen.pdf</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/class_queen.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/class_rock.eps</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/class_rock.pdf</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/class_rock.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/class_rook.eps</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/class_rook.pdf</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/class_rook.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/class_sentry.eps</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/class_sentry.pdf</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/class_sentry.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/class_space.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/classcontroller_1_1_spring_utilities.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/classcontroller_1_1_text_input.eps</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/classcontroller_1_1_text_input.pdf</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/classcontroller_1_1_text_input.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/classcontroller_1_1_user_input.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/classmodel_1_1_board.eps</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/classmodel_1_1_board.pdf</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/classmodel_1_1_board.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/classmodel_1_1_chess.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/classmodel_1_1_space.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/classpieces_1_1_bishop.eps</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/classpieces_1_1_bishop.pdf</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/classpieces_1_1_bishop.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/classpieces_1_1_king.eps</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/classpieces_1_1_king.pdf</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/classpieces_1_1_king.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/classpieces_1_1_knight.eps</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/classpieces_1_1_knight.pdf</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/classpieces_1_1_knight.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/classpieces_1_1_pawn.eps</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/classpieces_1_1_pawn.pdf</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/classpieces_1_1_pawn.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/classpieces_1_1_piece.eps</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/classpieces_1_1_piece.pdf</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/classpieces_1_1_piece.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/classpieces_1_1_queen.eps</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/classpieces_1_1_queen.pdf</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/classpieces_1_1_queen.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/classpieces_1_1_rock.eps</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/classpieces_1_1_rock.pdf</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/classpieces_1_1_rock.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/classpieces_1_1_rook.eps</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/classpieces_1_1_rook.pdf</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/classpieces_1_1_rook.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/classpieces_1_1_sentry.eps</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/classpieces_1_1_sentry.pdf</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/classpieces_1_1_sentry.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/classtests_1_1_all_tests.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/classtests_1_1_bishop_test.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/classtests_1_1_board_test.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/classtests_1_1_chess_test.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/classtests_1_1_king_test.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/classtests_1_1_knight_test.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/classtests_1_1_pawn_test.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/classtests_1_1_piece_test.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/classtests_1_1_queen_test.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/classtests_1_1_rock_test.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/classtests_1_1_rook_test.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/classtests_1_1_sentry_test.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/classtests_1_1_user_input_test.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/classview_1_1_chess_g_u_i.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/dir_34caaf82b25d83e62b370a0c6fbb4fdf.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/dir_41ef5d8a90b9cc03a02949a5c062e6f0.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/dir_5dd65160827af56e6353642206b80129.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/dir_68267d1309a1af8e8297ef4c3efbcdba.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/dir_b39b5091e8d1d2be4b7fc59d57749634.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/dir_d93a1d4020dea85bb71b237545b5e722.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/doxygen.sty</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/hierarchy.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/make.bat</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/doxygen/latex/refman.tex</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment1.2/Chess/images</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment1.2/Chess/images/black</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/images/black/bishop.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/images/black/king.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/images/black/knight.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/images/black/pawn.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/images/black/queen.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/images/black/rock.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/images/black/rook.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/images/black/sentry.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/images/board.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/images/logo.jpg</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment1.2/Chess/images/white</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/images/white/bishop.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/images/white/king.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/images/white/knight.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/images/white/pawn.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/images/white/queen.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/images/white/rock.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/images/white/rook.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/images/white/sentry.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/javadoc.xml</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment1.2/Chess/src</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment1.2/Chess/src/controller</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/src/controller/SpringUtilities.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/src/controller/TextInput.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/src/controller/UserInput.java</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment1.2/Chess/src/model</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/src/model/Board.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/src/model/Chess.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/src/model/Space.java</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment1.2/Chess/src/pieces</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/src/pieces/Bishop.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/src/pieces/King.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/src/pieces/Knight.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/src/pieces/Pawn.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/src/pieces/Piece.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/src/pieces/Queen.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/src/pieces/Rock.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/src/pieces/Rook.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/src/pieces/Sentry.java</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment1.2/Chess/src/tests</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/src/tests/AllTests.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/src/tests/BishopTest.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/src/tests/BoardTest.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/src/tests/ChessTest.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/src/tests/KingTest.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/src/tests/KnightTest.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/src/tests/PawnTest.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/src/tests/PieceTest.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/src/tests/QueenTest.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/src/tests/RockTest.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/src/tests/RookTest.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/src/tests/SentryTest.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/src/tests/UserInputTest.java</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment1.2/Chess/src/view</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/Chess/src/view/ChessGUI.java</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment1.2/junit</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/junit/hamcrest-core-1.3.jar</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/junit/junit-4.11.jar</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment1.2/testplan</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/testplan/testplan.odt</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.2/testplan/testplan.pdf</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="5129">
+<author>hempy2</author>
+<date>2014-02-17T23:15:55.870264Z</date>
+<paths>
+<path
+   kind="dir"
+   action="D">/hempy2/test</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="5128">
+<author>hempy2</author>
+<date>2014-02-17T23:14:10.668558Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/hempy2/test</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="4525">
+<author>hempy2</author>
+<date>2014-02-14T05:05:06.530889Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment1.1</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment1.1/Chess</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/.classpath</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/.project</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment1.1/Chess/.settings</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/.settings/org.eclipse.jdt.core.prefs</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment1.1/Chess/bin</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/bin/AllTests.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/bin/Bishop.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/bin/BishopTest.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/bin/Board.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/bin/BoardTest.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/bin/Chess.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/bin/ChessTest.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/bin/King.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/bin/KingTest.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/bin/Knight.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/bin/KnightTest.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/bin/Pawn.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/bin/PawnTest.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/bin/Piece.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/bin/PieceTest.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/bin/Queen.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/bin/QueenTest.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/bin/Rock.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/bin/RockTest.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/bin/Rook.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/bin/RookTest.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/bin/Sentry.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/bin/SentryTest.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/bin/Space.class</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment1.1/Chess/doc</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doc/Board.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doc/Chess.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doc/ChessTest.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doc/Pair.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doc/Piece.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doc/PieceTest.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doc/allclasses-frame.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doc/allclasses-noframe.html</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment1.1/Chess/doc/class-use</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doc/class-use/Board.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doc/class-use/Chess.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doc/class-use/ChessTest.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doc/class-use/Pair.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doc/class-use/Piece.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doc/class-use/PieceTest.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doc/constant-values.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doc/deprecated-list.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doc/help-doc.html</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment1.1/Chess/doc/index-files</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doc/index-files/index-1.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doc/index-files/index-2.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doc/index-files/index-3.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doc/index-files/index-4.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doc/index-files/index-5.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doc/index-files/index-6.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doc/index-files/index-7.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doc/index.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doc/overview-tree.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doc/package-frame.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doc/package-list</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doc/package-summary.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doc/package-tree.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doc/package-use.html</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment1.1/Chess/doc/resources</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doc/resources/background.gif</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doc/resources/tab.gif</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doc/resources/titlebar.gif</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doc/resources/titlebar_end.gif</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doc/stylesheet.css</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/annotated.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/bc_s.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/bdwn.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/class_bishop-members.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/class_bishop.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/class_bishop.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/class_board-members.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/class_board.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/class_chess-members.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/class_chess.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/class_king-members.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/class_king.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/class_king.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/class_knight-members.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/class_knight.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/class_knight.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/class_pawn-members.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/class_pawn.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/class_pawn.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/class_piece-members.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/class_piece.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/class_piece.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/class_queen-members.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/class_queen.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/class_queen.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/class_rook-members.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/class_rook.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/class_rook.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/class_space-members.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/class_space.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/classes.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/closed.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/dir_68267d1309a1af8e8297ef4c3efbcdba.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/doxygen.css</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/doxygen.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/dynsections.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/ftv2blank.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/ftv2cl.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/ftv2doc.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/ftv2folderclosed.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/ftv2folderopen.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/ftv2lastnode.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/ftv2link.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/ftv2mlastnode.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/ftv2mnode.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/ftv2mo.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/ftv2node.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/ftv2ns.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/ftv2plastnode.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/ftv2pnode.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/ftv2splitbar.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/ftv2vertline.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/functions.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/functions_func.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/hierarchy.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/index.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/jquery.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/nav_f.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/nav_g.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/nav_h.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/open.png</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/all_0.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/all_0.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/all_1.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/all_1.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/all_2.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/all_2.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/all_3.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/all_3.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/all_4.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/all_4.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/all_5.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/all_5.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/all_6.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/all_6.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/all_7.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/all_7.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/all_8.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/all_8.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/all_9.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/all_9.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/all_a.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/all_a.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/all_b.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/all_b.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/all_c.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/all_c.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/all_d.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/all_d.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/classes_0.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/classes_0.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/classes_1.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/classes_1.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/classes_2.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/classes_2.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/classes_3.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/classes_3.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/classes_4.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/classes_4.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/classes_5.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/classes_5.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/classes_6.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/classes_6.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/close.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/functions_0.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/functions_0.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/functions_1.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/functions_1.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/functions_2.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/functions_2.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/functions_3.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/functions_3.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/functions_4.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/functions_4.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/functions_5.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/functions_5.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/functions_6.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/functions_6.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/functions_7.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/functions_7.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/functions_8.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/functions_8.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/mag_sel.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/nomatches.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/search.css</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/search.js</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/search_l.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/search_m.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/search/search_r.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/sync_off.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/sync_on.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/tab_a.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/tab_b.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/tab_h.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/tab_s.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/html/tabs.css</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/latex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/latex/Makefile</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/latex/annotated.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/latex/class_bishop.eps</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/latex/class_bishop.pdf</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/latex/class_bishop.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/latex/class_board.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/latex/class_chess.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/latex/class_king.eps</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/latex/class_king.pdf</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/latex/class_king.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/latex/class_knight.eps</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/latex/class_knight.pdf</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/latex/class_knight.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/latex/class_pawn.eps</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/latex/class_pawn.pdf</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/latex/class_pawn.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/latex/class_piece.eps</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/latex/class_piece.pdf</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/latex/class_piece.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/latex/class_queen.eps</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/latex/class_queen.pdf</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/latex/class_queen.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/latex/class_rook.eps</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/latex/class_rook.pdf</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/latex/class_rook.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/latex/class_space.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/latex/dir_68267d1309a1af8e8297ef4c3efbcdba.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/latex/doxygen.sty</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/latex/hierarchy.tex</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/latex/make.bat</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/doxygen/latex/refman.tex</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment1.1/Chess/images</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment1.1/Chess/images/black</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/images/black/bishop.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/images/black/king.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/images/black/knight.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/images/black/pawn.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/images/black/queen.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/images/black/rock.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/images/black/rook.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/images/black/sentry.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/images/board.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/images/logo.jpg</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment1.1/Chess/images/white</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/images/white/bishop.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/images/white/king.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/images/white/knight.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/images/white/pawn.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/images/white/queen.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/images/white/rock.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/images/white/rook.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/images/white/sentry.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/javadoc.xml</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment1.1/Chess/src</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/src/Bishop.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/src/Board.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/src/Chess.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/src/King.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/src/Knight.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/src/Pawn.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/src/Piece.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/src/Queen.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/src/Rock.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/src/Rook.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/src/Sentry.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/src/Space.java</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment1.1/Chess/tests</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/tests/AllTests.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/tests/BishopTest.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/tests/BoardTest.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/tests/ChessTest.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/tests/KingTest.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/tests/KnightTest.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/tests/PawnTest.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/tests/PieceTest.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/tests/QueenTest.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/tests/RockTest.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/tests/RookTest.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/Chess/tests/SentryTest.java</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment1.1/junit</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/junit/hamcrest-core-1.3.jar</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/junit/junit-4.11.jar</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment1.1/testplan</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/testplan/test.png</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.1/testplan/testplan.txt</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="3394">
+<author>hempy2</author>
+<date>2014-02-07T13:18:12.102574Z</date>
+<paths>
+<path
+   kind="file"
+   action="D">/hempy2/Assignment1.0/Chess/bin/ChessTest.class</path>
+<path
+   kind="file"
+   action="D">/hempy2/Assignment1.0/Chess/tests/ChessTest.java</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="3393">
+<author>hempy2</author>
+<date>2014-02-07T13:17:40.921114Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/hempy2/Assignment1.0/Chess/bin/AllTests.class</path>
+<path
+   kind="file"
+   action="M">/hempy2/Assignment1.0/Chess/bin/Board.class</path>
+<path
+   kind="file"
+   action="M">/hempy2/Assignment1.0/Chess/bin/BoardTest.class</path>
+<path
+   kind="file"
+   action="M">/hempy2/Assignment1.0/Chess/bin/Chess.class</path>
+<path
+   kind="file"
+   action="M">/hempy2/Assignment1.0/Chess/bin/King.class</path>
+<path
+   kind="file"
+   action="M">/hempy2/Assignment1.0/Chess/bin/Pawn.class</path>
+<path
+   kind="file"
+   action="M">/hempy2/Assignment1.0/Chess/bin/Queen.class</path>
+<path
+   kind="file"
+   action="M">/hempy2/Assignment1.0/Chess/bin/Space.class</path>
+<path
+   kind="file"
+   action="M">/hempy2/Assignment1.0/Chess/src/Board.java</path>
+<path
+   kind="file"
+   action="M">/hempy2/Assignment1.0/Chess/src/Chess.java</path>
+<path
+   kind="file"
+   action="M">/hempy2/Assignment1.0/Chess/src/King.java</path>
+<path
+   kind="file"
+   action="M">/hempy2/Assignment1.0/Chess/src/Pawn.java</path>
+<path
+   kind="file"
+   action="M">/hempy2/Assignment1.0/Chess/src/Queen.java</path>
+<path
+   kind="file"
+   action="M">/hempy2/Assignment1.0/Chess/src/Space.java</path>
+<path
+   kind="file"
+   action="M">/hempy2/Assignment1.0/Chess/tests/AllTests.java</path>
+<path
+   kind="file"
+   action="M">/hempy2/Assignment1.0/Chess/tests/BoardTest.java</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="3290">
+<author>hempy2</author>
+<date>2014-02-07T05:43:13.809733Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/hempy2/Assignment1.0/Chess/bin/AllTests.class</path>
+<path
+   kind="file"
+   action="M">/hempy2/Assignment1.0/Chess/bin/Bishop.class</path>
+<path
+   kind="file"
+   action="M">/hempy2/Assignment1.0/Chess/bin/BishopTest.class</path>
+<path
+   kind="file"
+   action="M">/hempy2/Assignment1.0/Chess/bin/BoardTest.class</path>
+<path
+   kind="file"
+   action="M">/hempy2/Assignment1.0/Chess/bin/King.class</path>
+<path
+   kind="file"
+   action="M">/hempy2/Assignment1.0/Chess/bin/KingTest.class</path>
+<path
+   kind="file"
+   action="M">/hempy2/Assignment1.0/Chess/bin/Knight.class</path>
+<path
+   kind="file"
+   action="M">/hempy2/Assignment1.0/Chess/bin/KnightTest.class</path>
+<path
+   kind="file"
+   action="M">/hempy2/Assignment1.0/Chess/bin/Pawn.class</path>
+<path
+   kind="file"
+   action="M">/hempy2/Assignment1.0/Chess/bin/PawnTest.class</path>
+<path
+   kind="file"
+   action="M">/hempy2/Assignment1.0/Chess/bin/Piece.class</path>
+<path
+   kind="file"
+   action="M">/hempy2/Assignment1.0/Chess/bin/Queen.class</path>
+<path
+   kind="file"
+   action="M">/hempy2/Assignment1.0/Chess/bin/QueenTest.class</path>
+<path
+   kind="file"
+   action="M">/hempy2/Assignment1.0/Chess/bin/Rook.class</path>
+<path
+   kind="file"
+   action="M">/hempy2/Assignment1.0/Chess/bin/RookTest.class</path>
+<path
+   kind="file"
+   action="M">/hempy2/Assignment1.0/Chess/src/Bishop.java</path>
+<path
+   kind="file"
+   action="M">/hempy2/Assignment1.0/Chess/src/King.java</path>
+<path
+   kind="file"
+   action="M">/hempy2/Assignment1.0/Chess/src/Knight.java</path>
+<path
+   kind="file"
+   action="M">/hempy2/Assignment1.0/Chess/src/Pawn.java</path>
+<path
+   kind="file"
+   action="M">/hempy2/Assignment1.0/Chess/src/Piece.java</path>
+<path
+   kind="file"
+   action="M">/hempy2/Assignment1.0/Chess/src/Queen.java</path>
+<path
+   kind="file"
+   action="M">/hempy2/Assignment1.0/Chess/src/Rook.java</path>
+<path
+   kind="file"
+   action="M">/hempy2/Assignment1.0/Chess/tests/AllTests.java</path>
+<path
+   kind="file"
+   action="M">/hempy2/Assignment1.0/Chess/tests/BishopTest.java</path>
+<path
+   kind="file"
+   action="M">/hempy2/Assignment1.0/Chess/tests/BoardTest.java</path>
+<path
+   kind="file"
+   action="M">/hempy2/Assignment1.0/Chess/tests/KingTest.java</path>
+<path
+   kind="file"
+   action="M">/hempy2/Assignment1.0/Chess/tests/KnightTest.java</path>
+<path
+   kind="file"
+   action="M">/hempy2/Assignment1.0/Chess/tests/PawnTest.java</path>
+<path
+   kind="file"
+   action="M">/hempy2/Assignment1.0/Chess/tests/QueenTest.java</path>
+<path
+   kind="file"
+   action="M">/hempy2/Assignment1.0/Chess/tests/RookTest.java</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="3184">
+<author>hempy2</author>
+<date>2014-02-06T23:52:29.846736Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment1.0</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment1.0/Chess</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/.classpath</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/.project</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment1.0/Chess/.settings</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/.settings/org.eclipse.jdt.core.prefs</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment1.0/Chess/bin</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/bin/AllTests.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/bin/Bishop.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/bin/BishopTest.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/bin/Board.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/bin/BoardTest.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/bin/Chess.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/bin/ChessTest.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/bin/King.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/bin/KingTest.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/bin/Knight.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/bin/KnightTest.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/bin/Pawn.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/bin/PawnTest.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/bin/Piece.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/bin/Queen.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/bin/QueenTest.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/bin/Rook.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/bin/RookTest.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/bin/Space.class</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment1.0/Chess/doc</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/doc/Board.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/doc/Chess.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/doc/ChessTest.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/doc/Pair.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/doc/Piece.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/doc/PieceTest.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/doc/allclasses-frame.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/doc/allclasses-noframe.html</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment1.0/Chess/doc/class-use</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/doc/class-use/Board.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/doc/class-use/Chess.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/doc/class-use/ChessTest.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/doc/class-use/Pair.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/doc/class-use/Piece.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/doc/class-use/PieceTest.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/doc/constant-values.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/doc/deprecated-list.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/doc/help-doc.html</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment1.0/Chess/doc/index-files</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/doc/index-files/index-1.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/doc/index-files/index-2.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/doc/index-files/index-3.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/doc/index-files/index-4.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/doc/index-files/index-5.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/doc/index-files/index-6.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/doc/index-files/index-7.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/doc/index.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/doc/overview-tree.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/doc/package-frame.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/doc/package-list</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/doc/package-summary.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/doc/package-tree.html</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/doc/package-use.html</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment1.0/Chess/doc/resources</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/doc/resources/background.gif</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/doc/resources/tab.gif</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/doc/resources/titlebar.gif</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/doc/resources/titlebar_end.gif</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/doc/stylesheet.css</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/javadoc.xml</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment1.0/Chess/src</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/src/Bishop.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/src/Board.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/src/Chess.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/src/King.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/src/Knight.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/src/Pawn.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/src/Piece.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/src/Queen.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/src/Rook.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/src/Space.java</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment1.0/Chess/tests</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/tests/AllTests.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/tests/BishopTest.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/tests/BoardTest.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/tests/ChessTest.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/tests/KingTest.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/tests/KnightTest.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/tests/PawnTest.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/tests/QueenTest.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/Chess/tests/RookTest.java</path>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment1.0/junit</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/junit/hamcrest-core-1.3.jar</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment1.0/junit/junit-4.11.jar</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="1283">
+<author>hempy2</author>
+<date>2014-01-30T04:34:54.097629Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/hempy2/Assignment0</path>
+<path
+   kind="file"
+   action="A">/hempy2/Assignment0/main.cpp</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="1281">
+<author>hempy2</author>
+<date>2014-01-30T04:33:48.356116Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/hempy2/HW0/bin/lanSimulation/Network.class</path>
+<path
+   kind="file"
+   action="M">/hempy2/HW0/bin/lanSimulation/internals/Node.class</path>
+<path
+   kind="file"
+   action="M">/hempy2/HW0/src/lanSimulation/Network.java</path>
+<path
+   kind="file"
+   action="M">/hempy2/HW0/src/lanSimulation/internals/Node.java</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="1031">
+<author>hempy2</author>
+<date>2014-01-29T22:45:12.860403Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/hempy2/HW0</path>
+<path
+   kind="file"
+   action="A">/hempy2/HW0/.classpath</path>
+<path
+   kind="file"
+   action="A">/hempy2/HW0/.project</path>
+<path
+   kind="dir"
+   action="A">/hempy2/HW0/.settings</path>
+<path
+   kind="file"
+   action="A">/hempy2/HW0/.settings/org.eclipse.jdt.core.prefs</path>
+<path
+   kind="file"
+   action="A">/hempy2/HW0/COPYING</path>
+<path
+   kind="dir"
+   action="A">/hempy2/HW0/bin</path>
+<path
+   kind="dir"
+   action="A">/hempy2/HW0/bin/lanSimulation</path>
+<path
+   kind="file"
+   action="A">/hempy2/HW0/bin/lanSimulation/LANSimulation.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/HW0/bin/lanSimulation/Network.class</path>
+<path
+   kind="dir"
+   action="A">/hempy2/HW0/bin/lanSimulation/internals</path>
+<path
+   kind="file"
+   action="A">/hempy2/HW0/bin/lanSimulation/internals/Node.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/HW0/bin/lanSimulation/internals/Packet.class</path>
+<path
+   kind="dir"
+   action="A">/hempy2/HW0/bin/lanSimulation/tests</path>
+<path
+   kind="file"
+   action="A">/hempy2/HW0/bin/lanSimulation/tests/LANTests$PreconditionViolationTestCase.class</path>
+<path
+   kind="file"
+   action="A">/hempy2/HW0/bin/lanSimulation/tests/LANTests.class</path>
+<path
+   kind="dir"
+   action="A">/hempy2/HW0/doc</path>
+<path
+   kind="file"
+   action="A">/hempy2/HW0/doc/LANSimulationDocument.pdf</path>
+<path
+   kind="file"
+   action="A">/hempy2/HW0/doc/README</path>
+<path
+   kind="file"
+   action="A">/hempy2/HW0/doc/RefactoringAssignment.pdf</path>
+<path
+   kind="file"
+   action="A">/hempy2/HW0/doc/toDoList</path>
+<path
+   kind="file"
+   action="A">/hempy2/HW0/expectedOutput.txt</path>
+<path
+   kind="file"
+   action="A">/hempy2/HW0/javadoc.xml</path>
+<path
+   kind="dir"
+   action="A">/hempy2/HW0/src</path>
+<path
+   kind="dir"
+   action="A">/hempy2/HW0/src/lanSimulation</path>
+<path
+   kind="file"
+   action="A">/hempy2/HW0/src/lanSimulation/LANSimulation.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/HW0/src/lanSimulation/Network.java</path>
+<path
+   kind="dir"
+   action="A">/hempy2/HW0/src/lanSimulation/internals</path>
+<path
+   kind="file"
+   action="A">/hempy2/HW0/src/lanSimulation/internals/Node.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/HW0/src/lanSimulation/internals/Packet.java</path>
+<path
+   kind="dir"
+   action="A">/hempy2/HW0/src/lanSimulation/tests</path>
+<path
+   kind="file"
+   action="A">/hempy2/HW0/src/lanSimulation/tests/LANTests.java</path>
+<path
+   kind="file"
+   action="A">/hempy2/HW0/useOutput.txt</path>
+</paths>
+<msg>added HW0</msg>
+</logentry>
+<logentry
+   revision="986">
+<author>hempy2</author>
+<date>2014-01-29T21:47:31.983775Z</date>
+<paths>
+<path
+   kind="dir"
+   action="D">/hempy2/grocery</path>
+<path
+   kind="dir"
+   copyfrom-path="/hempy2/grocery"
+   copyfrom-rev="985"
+   action="A">/hempy2/shopping</path>
+</paths>
+<msg>Moved grocery to shopping for clarity</msg>
+</logentry>
+<logentry
+   revision="983">
+<author>hempy2</author>
+<date>2014-01-29T21:41:12.690582Z</date>
+<paths>
+<path
+   kind="file"
+   action="D">/hempy2/grocery/list3.txt</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="982">
+<author>hempy2</author>
+<date>2014-01-29T21:40:21.236596Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/hempy2/grocery/list3.txt</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="981">
+<author>hempy2</author>
+<date>2014-01-29T21:39:37.629025Z</date>
+<paths>
+<path
+   kind="file"
+   action="D">/hempy2/grocery/list3.txt</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="978">
+<author>hempy2</author>
+<date>2014-01-29T21:33:13.021784Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/hempy2/grocery/list3.txt</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="975">
+<author>hempy2</author>
+<date>2014-01-29T21:31:24.604801Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/hempy2/grocery/list2.txt</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="972">
+<author>hempy2</author>
+<date>2014-01-29T21:28:50.729481Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/hempy2/grocery/list2.txt</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="969">
+<author>hempy2</author>
+<date>2014-01-29T21:24:52.571222Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/hempy2/grocery/list2.txt</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="963">
+<author>hempy2</author>
+<date>2014-01-29T21:11:18.575964Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/hempy2/grocery/list2.txt</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="320">
+<author>hempy2</author>
+<date>2014-01-28T04:19:47.436498Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/hempy2/grocery/list2.txt</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="319">
+<author>hempy2</author>
+<date>2014-01-28T04:16:42.994242Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/hempy2/grocery/list2.txt</path>
+</paths>
+<msg>Adding more vegetables</msg>
+</logentry>
+<logentry
+   revision="318">
+<author>hempy2</author>
+<date>2014-01-28T04:14:02.048233Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/hempy2/grocery/list1.txt</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="317">
+<author>hempy2</author>
+<date>2014-01-28T03:42:57.498488Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/hempy2/grocery/list1.txt</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="316">
+<author>hempy2</author>
+<date>2014-01-28T03:39:44.315494Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/hempy2/grocery/list1.txt</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="315">
+<author>hempy2</author>
+<date>2014-01-28T03:38:11.463291Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/hempy2/grocery</path>
+<path
+   kind="file"
+   action="A">/hempy2/grocery/list1.txt</path>
+<path
+   kind="file"
+   action="A">/hempy2/grocery/list2.txt</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="70">
+<author>root</author>
+<date>2014-01-26T21:15:21.147156Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/hempy2</path>
+</paths>
+<msg>created directory hempy2</msg>
+</logentry>
+</log>

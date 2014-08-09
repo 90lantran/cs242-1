@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="javadoc">
+    <target name="javadoc">
+        <javadoc access="public" author="true" classpath="../junit/hamcrest-core-1.3.jar;../junit/junit-4.11.jar" destdir="doc" nodeprecated="false" nodeprecatedlist="false" noindex="false" nonavbar="false" notree="false" source="1.6" sourcefiles="src/ChessTest.java,src/Piece.java,src/Board.java,src/Chess.java,src/Pair.java,src/PieceTest.java" sourcepath="src" splitindex="true" use="true" version="true"/>
+    </target>
+</project>

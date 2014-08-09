@@ -1,0 +1,235 @@
+\hypertarget{classmodel_1_1_board}{\section{model.\-Board Class Reference}
+\label{classmodel_1_1_board}\index{model.\-Board@{model.\-Board}}
+}
+Inheritance diagram for model.\-Board\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classmodel_1_1_board}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classmodel_1_1_board_aac7c0f18953f62b56fe1631dedc218ea}{Board} (\hyperlink{classmodel_1_1_board}{Board} other)
+\item 
+void \hyperlink{classmodel_1_1_board_ac230b4f661035db4d987134a91ab5cd4}{copy} (\hyperlink{classmodel_1_1_board}{Board} other)
+\item 
+void \hyperlink{classmodel_1_1_board_ab04268464780a556231843bfaca1f7bc}{reset} ()
+\item 
+void \hyperlink{classmodel_1_1_board_a00a494387b91835dbbc9c32ef253ca12}{paint\-Component} (Graphics g)
+\item 
+boolean \hyperlink{classmodel_1_1_board_a6578fe85a178404aa4da310dc28df012}{set\-Piece} (String piece, int rank, int file, Color player)
+\item 
+\hyperlink{classpieces_1_1_piece}{Piece} \hyperlink{classmodel_1_1_board_a516e546153648407b07174eeac9118d8}{get\-Piece} (int rank, int file)
+\item 
+boolean \hyperlink{classmodel_1_1_board_ad7df4bb61e00f8744f5593c2c8bd74a1}{move\-Piece} (int rstart, int fstart, int rtarget, int ftarget)
+\item 
+boolean \hyperlink{classmodel_1_1_board_aec15006cd7900c2b650b6f5dbeb35919}{out\-Of\-Bounds} (int rank, int file)
+\item 
+void \hyperlink{classmodel_1_1_board_ad96529c09bb3bef7dd29eae0a7d65cd8}{update\-Pieces} ()
+\item 
+boolean \hyperlink{classmodel_1_1_board_a55796d2d3a30e97826d734d79cde4d72}{in\-Check} (Color player)
+\item 
+boolean \hyperlink{classmodel_1_1_board_ae3d70f6d7bf853a60cbefb6872b73b3d}{in\-Checkmate} (Color player)
+\item 
+boolean \hyperlink{classmodel_1_1_board_a8758e5343f5a3dc5f965b622ebf012e3}{in\-Stalemate} (Color player)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+Will 
+\end{DoxyAuthor}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classmodel_1_1_board_aac7c0f18953f62b56fe1631dedc218ea}{\index{model\-::\-Board@{model\-::\-Board}!Board@{Board}}
+\index{Board@{Board}!model::Board@{model\-::\-Board}}
+\subsubsection[{Board}]{\setlength{\rightskip}{0pt plus 5cm}model.\-Board.\-Board (
+\begin{DoxyParamCaption}
+\item[{{\bf Board}}]{other}
+\end{DoxyParamCaption}
+)}}\label{classmodel_1_1_board_aac7c0f18953f62b56fe1631dedc218ea}
+Copy constructor 
+\begin{DoxyParams}{Parameters}
+{\em other} & the board to copy \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classmodel_1_1_board_ac230b4f661035db4d987134a91ab5cd4}{\index{model\-::\-Board@{model\-::\-Board}!copy@{copy}}
+\index{copy@{copy}!model::Board@{model\-::\-Board}}
+\subsubsection[{copy}]{\setlength{\rightskip}{0pt plus 5cm}void model.\-Board.\-copy (
+\begin{DoxyParamCaption}
+\item[{{\bf Board}}]{other}
+\end{DoxyParamCaption}
+)}}\label{classmodel_1_1_board_ac230b4f661035db4d987134a91ab5cd4}
+A copy helper function that performs a deep copy of every element in the other board. 
+\begin{DoxyParams}{Parameters}
+{\em other} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{classmodel_1_1_board_a516e546153648407b07174eeac9118d8}{\index{model\-::\-Board@{model\-::\-Board}!get\-Piece@{get\-Piece}}
+\index{get\-Piece@{get\-Piece}!model::Board@{model\-::\-Board}}
+\subsubsection[{get\-Piece}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Piece} model.\-Board.\-get\-Piece (
+\begin{DoxyParamCaption}
+\item[{int}]{rank, }
+\item[{int}]{file}
+\end{DoxyParamCaption}
+)}}\label{classmodel_1_1_board_a516e546153648407b07174eeac9118d8}
+
+\begin{DoxyParams}{Parameters}
+{\em rank} & the x (rank) location of the piece \\
+\hline
+{\em file} & the y (file) location of the piece \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the piece at a given space 
+\end{DoxyReturn}
+\hypertarget{classmodel_1_1_board_a55796d2d3a30e97826d734d79cde4d72}{\index{model\-::\-Board@{model\-::\-Board}!in\-Check@{in\-Check}}
+\index{in\-Check@{in\-Check}!model::Board@{model\-::\-Board}}
+\subsubsection[{in\-Check}]{\setlength{\rightskip}{0pt plus 5cm}boolean model.\-Board.\-in\-Check (
+\begin{DoxyParamCaption}
+\item[{Color}]{player}
+\end{DoxyParamCaption}
+)}}\label{classmodel_1_1_board_a55796d2d3a30e97826d734d79cde4d72}
+
+\begin{DoxyParams}{Parameters}
+{\em player} & the color of the player check for check \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the given player is in check 
+\end{DoxyReturn}
+\hypertarget{classmodel_1_1_board_ae3d70f6d7bf853a60cbefb6872b73b3d}{\index{model\-::\-Board@{model\-::\-Board}!in\-Checkmate@{in\-Checkmate}}
+\index{in\-Checkmate@{in\-Checkmate}!model::Board@{model\-::\-Board}}
+\subsubsection[{in\-Checkmate}]{\setlength{\rightskip}{0pt plus 5cm}boolean model.\-Board.\-in\-Checkmate (
+\begin{DoxyParamCaption}
+\item[{Color}]{player}
+\end{DoxyParamCaption}
+)}}\label{classmodel_1_1_board_ae3d70f6d7bf853a60cbefb6872b73b3d}
+
+\begin{DoxyParams}{Parameters}
+{\em player} & the color of the player to check for checkmate \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the given player is in checkmate 
+\end{DoxyReturn}
+\hypertarget{classmodel_1_1_board_a8758e5343f5a3dc5f965b622ebf012e3}{\index{model\-::\-Board@{model\-::\-Board}!in\-Stalemate@{in\-Stalemate}}
+\index{in\-Stalemate@{in\-Stalemate}!model::Board@{model\-::\-Board}}
+\subsubsection[{in\-Stalemate}]{\setlength{\rightskip}{0pt plus 5cm}boolean model.\-Board.\-in\-Stalemate (
+\begin{DoxyParamCaption}
+\item[{Color}]{player}
+\end{DoxyParamCaption}
+)}}\label{classmodel_1_1_board_a8758e5343f5a3dc5f965b622ebf012e3}
+
+\begin{DoxyParams}{Parameters}
+{\em player} & the color of player to check for stalemate \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if in stalemate 
+\end{DoxyReturn}
+\hypertarget{classmodel_1_1_board_ad7df4bb61e00f8744f5593c2c8bd74a1}{\index{model\-::\-Board@{model\-::\-Board}!move\-Piece@{move\-Piece}}
+\index{move\-Piece@{move\-Piece}!model::Board@{model\-::\-Board}}
+\subsubsection[{move\-Piece}]{\setlength{\rightskip}{0pt plus 5cm}boolean model.\-Board.\-move\-Piece (
+\begin{DoxyParamCaption}
+\item[{int}]{rstart, }
+\item[{int}]{fstart, }
+\item[{int}]{rtarget, }
+\item[{int}]{ftarget}
+\end{DoxyParamCaption}
+)}}\label{classmodel_1_1_board_ad7df4bb61e00f8744f5593c2c8bd74a1}
+Moves a piece on the board from (rstart,fstart) to (rtarget,ftarget). 
+\begin{DoxyParams}{Parameters}
+{\em rstart} & the starting rank (x position) of the move \\
+\hline
+{\em fstart} & the starting file (y position) of the move \\
+\hline
+{\em rtarget} & the target rank (x position) of the move \\
+\hline
+{\em ftarget} & the target file (y position) of the move \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the move was successful false otherwise 
+\end{DoxyReturn}
+\hypertarget{classmodel_1_1_board_aec15006cd7900c2b650b6f5dbeb35919}{\index{model\-::\-Board@{model\-::\-Board}!out\-Of\-Bounds@{out\-Of\-Bounds}}
+\index{out\-Of\-Bounds@{out\-Of\-Bounds}!model::Board@{model\-::\-Board}}
+\subsubsection[{out\-Of\-Bounds}]{\setlength{\rightskip}{0pt plus 5cm}boolean model.\-Board.\-out\-Of\-Bounds (
+\begin{DoxyParamCaption}
+\item[{int}]{rank, }
+\item[{int}]{file}
+\end{DoxyParamCaption}
+)}}\label{classmodel_1_1_board_aec15006cd7900c2b650b6f5dbeb35919}
+Checks whether a given (rank,file) pair is within the board range. 
+\begin{DoxyParams}{Parameters}
+{\em rank} & the x (rank) location of the piece \\
+\hline
+{\em file} & the y (file) location of the piece \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the position given is not a valid board position. 
+\end{DoxyReturn}
+\hypertarget{classmodel_1_1_board_a00a494387b91835dbbc9c32ef253ca12}{\index{model\-::\-Board@{model\-::\-Board}!paint\-Component@{paint\-Component}}
+\index{paint\-Component@{paint\-Component}!model::Board@{model\-::\-Board}}
+\subsubsection[{paint\-Component}]{\setlength{\rightskip}{0pt plus 5cm}void model.\-Board.\-paint\-Component (
+\begin{DoxyParamCaption}
+\item[{Graphics}]{g}
+\end{DoxyParamCaption}
+)}}\label{classmodel_1_1_board_a00a494387b91835dbbc9c32ef253ca12}
+\begin{DoxySeeAlso}{See Also}
+javax.\-swing.\-J\-Component\-::paint\-Component(java.\-awt.\-Graphics) 
+\end{DoxySeeAlso}
+
+\begin{DoxyParams}{Parameters}
+{\em g} & the graphics element to paint the board onto \\
+\hline
+\end{DoxyParams}
+\hypertarget{classmodel_1_1_board_ab04268464780a556231843bfaca1f7bc}{\index{model\-::\-Board@{model\-::\-Board}!reset@{reset}}
+\index{reset@{reset}!model::Board@{model\-::\-Board}}
+\subsubsection[{reset}]{\setlength{\rightskip}{0pt plus 5cm}void model.\-Board.\-reset (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classmodel_1_1_board_ab04268464780a556231843bfaca1f7bc}
+Restarts the current board to the unitialized state with no pieces. \hypertarget{classmodel_1_1_board_a6578fe85a178404aa4da310dc28df012}{\index{model\-::\-Board@{model\-::\-Board}!set\-Piece@{set\-Piece}}
+\index{set\-Piece@{set\-Piece}!model::Board@{model\-::\-Board}}
+\subsubsection[{set\-Piece}]{\setlength{\rightskip}{0pt plus 5cm}boolean model.\-Board.\-set\-Piece (
+\begin{DoxyParamCaption}
+\item[{String}]{piece, }
+\item[{int}]{rank, }
+\item[{int}]{file, }
+\item[{Color}]{player}
+\end{DoxyParamCaption}
+)}}\label{classmodel_1_1_board_a6578fe85a178404aa4da310dc28df012}
+
+\begin{DoxyParams}{Parameters}
+{\em piece} & the piece to set \\
+\hline
+{\em rank} & the x (rank) location of the piece \\
+\hline
+{\em file} & the y (file) location of the piece \\
+\hline
+{\em player} & the owner of the piece (W\-H\-I\-T\-E,B\-L\-A\-C\-K) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the piece was set successfully 
+\end{DoxyReturn}
+\hypertarget{classmodel_1_1_board_ad96529c09bb3bef7dd29eae0a7d65cd8}{\index{model\-::\-Board@{model\-::\-Board}!update\-Pieces@{update\-Pieces}}
+\index{update\-Pieces@{update\-Pieces}!model::Board@{model\-::\-Board}}
+\subsubsection[{update\-Pieces}]{\setlength{\rightskip}{0pt plus 5cm}void model.\-Board.\-update\-Pieces (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classmodel_1_1_board_ad96529c09bb3bef7dd29eae0a7d65cd8}
+We need to maintain possible moves for each piece to detect game-\/ending conditions. 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/model/Board.\-java\end{DoxyCompactItemize}

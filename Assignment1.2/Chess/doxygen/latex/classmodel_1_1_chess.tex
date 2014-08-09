@@ -1,0 +1,109 @@
+\hypertarget{classmodel_1_1_chess}{\section{model.\-Chess Class Reference}
+\label{classmodel_1_1_chess}\index{model.\-Chess@{model.\-Chess}}
+}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{classmodel_1_1_chess_aee53a6846e5dbe60cfd0b62cbe373788}{restart} ()
+\item 
+\hypertarget{classmodel_1_1_chess_ab7d140bf0b52b8397858de46fdf2a0ce}{static void {\bfseries wins} ()}\label{classmodel_1_1_chess_ab7d140bf0b52b8397858de46fdf2a0ce}
+
+\item 
+static void \hyperlink{classmodel_1_1_chess_af399b48ddd8715c973c47e495d4b3c25}{forfeit} ()
+\item 
+static void \hyperlink{classmodel_1_1_chess_a07b47f12039f14faa2328596cd0f06f6}{draw} ()
+\item 
+static Color \hyperlink{classmodel_1_1_chess_a6cd0aad82f26cb7db49848d977cd4b56}{get\-Turn} ()
+\item 
+static String \hyperlink{classmodel_1_1_chess_abd2d0e384c5be0d5195c05cc691364e1}{current\-Player} ()
+\item 
+static void \hyperlink{classmodel_1_1_chess_ab0062f08be39cde173dde158d1faacbe}{next\-Turn} ()
+\item 
+static String \hyperlink{classmodel_1_1_chess_a88168b5d5a7fd11c21d1132110da6e70}{get\-Score\-List} ()
+\item 
+static void \hyperlink{classmodel_1_1_chess_a060f443a73a9090f8160ea803e56f786}{set\-Player\-Names} (String\mbox{[}$\,$\mbox{]} players)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+Will 
+\end{DoxyAuthor}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classmodel_1_1_chess_abd2d0e384c5be0d5195c05cc691364e1}{\index{model\-::\-Chess@{model\-::\-Chess}!current\-Player@{current\-Player}}
+\index{current\-Player@{current\-Player}!model::Chess@{model\-::\-Chess}}
+\subsubsection[{current\-Player}]{\setlength{\rightskip}{0pt plus 5cm}static String model.\-Chess.\-current\-Player (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classmodel_1_1_chess_abd2d0e384c5be0d5195c05cc691364e1}
+Gets the name of the current turn's player. \begin{DoxyReturn}{Returns}
+the name of the player who's turn it is 
+\end{DoxyReturn}
+\hypertarget{classmodel_1_1_chess_a07b47f12039f14faa2328596cd0f06f6}{\index{model\-::\-Chess@{model\-::\-Chess}!draw@{draw}}
+\index{draw@{draw}!model::Chess@{model\-::\-Chess}}
+\subsubsection[{draw}]{\setlength{\rightskip}{0pt plus 5cm}static void model.\-Chess.\-draw (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classmodel_1_1_chess_a07b47f12039f14faa2328596cd0f06f6}
+Called when a player ends up in a stalemate. Neither player gets any points. \hypertarget{classmodel_1_1_chess_af399b48ddd8715c973c47e495d4b3c25}{\index{model\-::\-Chess@{model\-::\-Chess}!forfeit@{forfeit}}
+\index{forfeit@{forfeit}!model::Chess@{model\-::\-Chess}}
+\subsubsection[{forfeit}]{\setlength{\rightskip}{0pt plus 5cm}static void model.\-Chess.\-forfeit (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classmodel_1_1_chess_af399b48ddd8715c973c47e495d4b3c25}
+Called when a player chooses to forfeit the game. The opponent of the current player gets one point. the game should then be reset. \hypertarget{classmodel_1_1_chess_a88168b5d5a7fd11c21d1132110da6e70}{\index{model\-::\-Chess@{model\-::\-Chess}!get\-Score\-List@{get\-Score\-List}}
+\index{get\-Score\-List@{get\-Score\-List}!model::Chess@{model\-::\-Chess}}
+\subsubsection[{get\-Score\-List}]{\setlength{\rightskip}{0pt plus 5cm}static String model.\-Chess.\-get\-Score\-List (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classmodel_1_1_chess_a88168b5d5a7fd11c21d1132110da6e70}
+Gets a list of the players and scores and concatenates them together into a table for the user. \begin{DoxyReturn}{Returns}
+a string representation of the game scoreboard. 
+\end{DoxyReturn}
+\hypertarget{classmodel_1_1_chess_a6cd0aad82f26cb7db49848d977cd4b56}{\index{model\-::\-Chess@{model\-::\-Chess}!get\-Turn@{get\-Turn}}
+\index{get\-Turn@{get\-Turn}!model::Chess@{model\-::\-Chess}}
+\subsubsection[{get\-Turn}]{\setlength{\rightskip}{0pt plus 5cm}static Color model.\-Chess.\-get\-Turn (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classmodel_1_1_chess_a6cd0aad82f26cb7db49848d977cd4b56}
+Finds out which player's move is next. \begin{DoxyReturn}{Returns}
+the color of the player who's turn it currently is. 
+\end{DoxyReturn}
+\hypertarget{classmodel_1_1_chess_ab0062f08be39cde173dde158d1faacbe}{\index{model\-::\-Chess@{model\-::\-Chess}!next\-Turn@{next\-Turn}}
+\index{next\-Turn@{next\-Turn}!model::Chess@{model\-::\-Chess}}
+\subsubsection[{next\-Turn}]{\setlength{\rightskip}{0pt plus 5cm}static void model.\-Chess.\-next\-Turn (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classmodel_1_1_chess_ab0062f08be39cde173dde158d1faacbe}
+Changes the current turn. Black follows white and white follows black. This method will change turns if the game has not started. \hypertarget{classmodel_1_1_chess_aee53a6846e5dbe60cfd0b62cbe373788}{\index{model\-::\-Chess@{model\-::\-Chess}!restart@{restart}}
+\index{restart@{restart}!model::Chess@{model\-::\-Chess}}
+\subsubsection[{restart}]{\setlength{\rightskip}{0pt plus 5cm}static void model.\-Chess.\-restart (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classmodel_1_1_chess_aee53a6846e5dbe60cfd0b62cbe373788}
+A game ends in a draw. Both players gain 1 point. \hypertarget{classmodel_1_1_chess_a060f443a73a9090f8160ea803e56f786}{\index{model\-::\-Chess@{model\-::\-Chess}!set\-Player\-Names@{set\-Player\-Names}}
+\index{set\-Player\-Names@{set\-Player\-Names}!model::Chess@{model\-::\-Chess}}
+\subsubsection[{set\-Player\-Names}]{\setlength{\rightskip}{0pt plus 5cm}static void model.\-Chess.\-set\-Player\-Names (
+\begin{DoxyParamCaption}
+\item[{String\mbox{[}$\,$\mbox{]}}]{players}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classmodel_1_1_chess_a060f443a73a9090f8160ea803e56f786}
+Initializes the names of the players for a given game of chess. 
+\begin{DoxyParams}{Parameters}
+{\em players} & the list of player names \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/model/Chess.\-java\end{DoxyCompactItemize}

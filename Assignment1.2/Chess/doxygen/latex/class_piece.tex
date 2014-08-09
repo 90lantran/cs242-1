@@ -1,0 +1,231 @@
+\hypertarget{class_piece}{\section{Piece Class Reference}
+\label{class_piece}\index{Piece@{Piece}}
+}
+Inheritance diagram for Piece\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=9.000000cm]{class_piece}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+abstract void \hyperlink{class_piece_a4a6c2b5c5d4dd5e3fa08f3a4cb97c9ba}{update\-Moves} (\hyperlink{class_piece}{Piece}\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} spaces, int rank, int file)
+\item 
+boolean \hyperlink{class_piece_a6c777344ee49d908f6c3cf43948a204d}{is\-Valid\-Move} (\hyperlink{class_space}{Space} target)
+\item 
+Color \hyperlink{class_piece_a076592733b1498c5bc04ac61059eb1cc}{get\-Color} ()
+\item 
+boolean \hyperlink{class_piece_a3b293d270e867e61341b27df6d71c5da}{same\-Owner} (\hyperlink{class_piece}{Piece} other)
+\item 
+boolean \hyperlink{class_piece_a49a140768645f1ff3cb444e7667fa21d}{same\-Owner} (Color player)
+\item 
+Buffered\-Image \hyperlink{class_piece_af88fc508a0998bf763bef10b351481a7}{get\-Piece\-Image} ()
+\item 
+boolean \hyperlink{class_piece_adb1a99429bb667ed89818dbf97054e87}{can\-Capture} (\hyperlink{class_space}{Space} other)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{class_piece}{Piece} \hyperlink{class_piece_aa6ae6ab5e1f16bdb941f9798362b3c66}{string\-To\-Piece} (String piece, Color player)
+\item 
+static boolean \hyperlink{class_piece_a6aecb3265f4e0f344ee0a2f57d1a1ae4}{out\-Of\-Bounds} (\hyperlink{class_piece}{Piece}\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} spaces, int rank, int file)
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_piece_aa9ea4ff0dd0e931fc3ad928233fbd281}{set\-Color} (Color player)
+\item 
+boolean \hyperlink{class_piece_a9dfc2ca9c8375ca29deb561255c4ce9b}{add\-Move} (\hyperlink{class_piece}{Piece} cur\-Space, int rank, int file)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Color \hyperlink{class_piece_ac3be06c38af4366f18cef94594a30a0d}{color} = null
+\item 
+Vector$<$ \hyperlink{class_space}{Space} $>$ \hyperlink{class_piece_a6fb158d95f588f706ae716b13487ba10}{moves} = null
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+Will 
+\end{DoxyAuthor}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_piece_a9dfc2ca9c8375ca29deb561255c4ce9b}{\index{Piece@{Piece}!add\-Move@{add\-Move}}
+\index{add\-Move@{add\-Move}!Piece@{Piece}}
+\subsubsection[{add\-Move}]{\setlength{\rightskip}{0pt plus 5cm}boolean Piece.\-add\-Move (
+\begin{DoxyParamCaption}
+\item[{{\bf Piece}}]{cur\-Space, }
+\item[{int}]{rank, }
+\item[{int}]{file}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_piece_a9dfc2ca9c8375ca29deb561255c4ce9b}
+Update\-Moves helper that checks if a given square should be added. \begin{DoxyReturn}{Returns}
+true if the piece cannot jump past the square 
+\end{DoxyReturn}
+\hypertarget{class_piece_adb1a99429bb667ed89818dbf97054e87}{\index{Piece@{Piece}!can\-Capture@{can\-Capture}}
+\index{can\-Capture@{can\-Capture}!Piece@{Piece}}
+\subsubsection[{can\-Capture}]{\setlength{\rightskip}{0pt plus 5cm}boolean Piece.\-can\-Capture (
+\begin{DoxyParamCaption}
+\item[{{\bf Space}}]{other}
+\end{DoxyParamCaption}
+)}}\label{class_piece_adb1a99429bb667ed89818dbf97054e87}
+
+\begin{DoxyParams}{Parameters}
+{\em other} & the space (rank,file) to check if a piece can capture to \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if a piece can capture to a space 
+\end{DoxyReturn}
+\hypertarget{class_piece_a076592733b1498c5bc04ac61059eb1cc}{\index{Piece@{Piece}!get\-Color@{get\-Color}}
+\index{get\-Color@{get\-Color}!Piece@{Piece}}
+\subsubsection[{get\-Color}]{\setlength{\rightskip}{0pt plus 5cm}Color Piece.\-get\-Color (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_piece_a076592733b1498c5bc04ac61059eb1cc}
+\begin{DoxyReturn}{Returns}
+(W\-H\-I\-T\-E,B\-L\-A\-C\-K,or N\-U\-L\-L) the color of a piece 
+\end{DoxyReturn}
+\hypertarget{class_piece_af88fc508a0998bf763bef10b351481a7}{\index{Piece@{Piece}!get\-Piece\-Image@{get\-Piece\-Image}}
+\index{get\-Piece\-Image@{get\-Piece\-Image}!Piece@{Piece}}
+\subsubsection[{get\-Piece\-Image}]{\setlength{\rightskip}{0pt plus 5cm}Buffered\-Image Piece.\-get\-Piece\-Image (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_piece_af88fc508a0998bf763bef10b351481a7}
+\begin{DoxyReturn}{Returns}
+the image file on disk representing the piece 
+\end{DoxyReturn}
+\hypertarget{class_piece_a6c777344ee49d908f6c3cf43948a204d}{\index{Piece@{Piece}!is\-Valid\-Move@{is\-Valid\-Move}}
+\index{is\-Valid\-Move@{is\-Valid\-Move}!Piece@{Piece}}
+\subsubsection[{is\-Valid\-Move}]{\setlength{\rightskip}{0pt plus 5cm}boolean Piece.\-is\-Valid\-Move (
+\begin{DoxyParamCaption}
+\item[{{\bf Space}}]{target}
+\end{DoxyParamCaption}
+)}}\label{class_piece_a6c777344ee49d908f6c3cf43948a204d}
+
+\begin{DoxyParams}{Parameters}
+{\em target} & the (rank,file) pair on the board to move to \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if a given move is possible for a piece 
+\end{DoxyReturn}
+\hypertarget{class_piece_a6aecb3265f4e0f344ee0a2f57d1a1ae4}{\index{Piece@{Piece}!out\-Of\-Bounds@{out\-Of\-Bounds}}
+\index{out\-Of\-Bounds@{out\-Of\-Bounds}!Piece@{Piece}}
+\subsubsection[{out\-Of\-Bounds}]{\setlength{\rightskip}{0pt plus 5cm}static boolean Piece.\-out\-Of\-Bounds (
+\begin{DoxyParamCaption}
+\item[{Piecespaces}]{\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]}, }
+\item[{int}]{rank, }
+\item[{int}]{file}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_piece_a6aecb3265f4e0f344ee0a2f57d1a1ae4}
+
+\begin{DoxyParams}{Parameters}
+{\em spaces} & The state of the chess board. \\
+\hline
+{\em rank} & the x (rank) location of the piece \\
+\hline
+{\em file} & the y (file) location of the piece \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if a given piece is out of bounds 
+\end{DoxyReturn}
+\hypertarget{class_piece_a3b293d270e867e61341b27df6d71c5da}{\index{Piece@{Piece}!same\-Owner@{same\-Owner}}
+\index{same\-Owner@{same\-Owner}!Piece@{Piece}}
+\subsubsection[{same\-Owner}]{\setlength{\rightskip}{0pt plus 5cm}boolean Piece.\-same\-Owner (
+\begin{DoxyParamCaption}
+\item[{{\bf Piece}}]{other}
+\end{DoxyParamCaption}
+)}}\label{class_piece_a3b293d270e867e61341b27df6d71c5da}
+
+\begin{DoxyParams}{Parameters}
+{\em other} & the piece to compare the current one with \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if one piece has the same owner as the other 
+\end{DoxyReturn}
+\hypertarget{class_piece_a49a140768645f1ff3cb444e7667fa21d}{\index{Piece@{Piece}!same\-Owner@{same\-Owner}}
+\index{same\-Owner@{same\-Owner}!Piece@{Piece}}
+\subsubsection[{same\-Owner}]{\setlength{\rightskip}{0pt plus 5cm}boolean Piece.\-same\-Owner (
+\begin{DoxyParamCaption}
+\item[{Color}]{player}
+\end{DoxyParamCaption}
+)}}\label{class_piece_a49a140768645f1ff3cb444e7667fa21d}
+
+\begin{DoxyParams}{Parameters}
+{\em player} & the color of the player to check against \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the current piece is of the same color 
+\end{DoxyReturn}
+\hypertarget{class_piece_aa9ea4ff0dd0e931fc3ad928233fbd281}{\index{Piece@{Piece}!set\-Color@{set\-Color}}
+\index{set\-Color@{set\-Color}!Piece@{Piece}}
+\subsubsection[{set\-Color}]{\setlength{\rightskip}{0pt plus 5cm}void Piece.\-set\-Color (
+\begin{DoxyParamCaption}
+\item[{Color}]{player}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_piece_aa9ea4ff0dd0e931fc3ad928233fbd281}
+
+\begin{DoxyParams}{Parameters}
+{\em player} & (W\-H\-I\-T\-E,B\-L\-A\-C\-K) the color to set the piece to \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_piece_aa6ae6ab5e1f16bdb941f9798362b3c66}{\index{Piece@{Piece}!string\-To\-Piece@{string\-To\-Piece}}
+\index{string\-To\-Piece@{string\-To\-Piece}!Piece@{Piece}}
+\subsubsection[{string\-To\-Piece}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Piece} Piece.\-string\-To\-Piece (
+\begin{DoxyParamCaption}
+\item[{String}]{piece, }
+\item[{Color}]{player}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_piece_aa6ae6ab5e1f16bdb941f9798362b3c66}
+Converts a string to an instance of a new piece. 
+\begin{DoxyParams}{Parameters}
+{\em piece} & the type of piece to instantiate \\
+\hline
+{\em player} & the color of piece to initialize \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the initialized piece matching the string input 
+\end{DoxyReturn}
+\hypertarget{class_piece_a4a6c2b5c5d4dd5e3fa08f3a4cb97c9ba}{\index{Piece@{Piece}!update\-Moves@{update\-Moves}}
+\index{update\-Moves@{update\-Moves}!Piece@{Piece}}
+\subsubsection[{update\-Moves}]{\setlength{\rightskip}{0pt plus 5cm}abstract void Piece.\-update\-Moves (
+\begin{DoxyParamCaption}
+\item[{{\bf Piece}}]{spaces\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]}, }
+\item[{int}]{rank, }
+\item[{int}]{file}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [abstract]}}}\label{class_piece_a4a6c2b5c5d4dd5e3fa08f3a4cb97c9ba}
+Upates the possible moves for a given piece. 
+\begin{DoxyParams}{Parameters}
+{\em spaces} & The state of the chess board. \\
+\hline
+{\em rank} & the x (rank) location of the piece \\
+\hline
+{\em file} & the y (file) location of the piece \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_piece_ac3be06c38af4366f18cef94594a30a0d}{\index{Piece@{Piece}!color@{color}}
+\index{color@{color}!Piece@{Piece}}
+\subsubsection[{color}]{\setlength{\rightskip}{0pt plus 5cm}Color Piece.\-color = null\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_piece_ac3be06c38af4366f18cef94594a30a0d}
+The color of a piece. (B\-L\-A\-C\-K,W\-H\-I\-T\-E,N\-U\-L\-L) \hypertarget{class_piece_a6fb158d95f588f706ae716b13487ba10}{\index{Piece@{Piece}!moves@{moves}}
+\index{moves@{moves}!Piece@{Piece}}
+\subsubsection[{moves}]{\setlength{\rightskip}{0pt plus 5cm}Vector$<${\bf Space}$>$ Piece.\-moves = null\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_piece_a6fb158d95f588f706ae716b13487ba10}
+The possible moves for a piece. 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/Piece.\-java\end{DoxyCompactItemize}

@@ -1,0 +1,5 @@
+1. Open the Java project in Eclipse.
+2. Run "Chess.java".
+3. Check that the chess board displays correctly.
+   Spaces should be the right colors. 
+   Pieces should be in the right places.

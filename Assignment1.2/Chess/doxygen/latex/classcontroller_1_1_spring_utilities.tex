@@ -1,0 +1,90 @@
+\hypertarget{classcontroller_1_1_spring_utilities}{\section{controller.\-Spring\-Utilities Class Reference}
+\label{classcontroller_1_1_spring_utilities}\index{controller.\-Spring\-Utilities@{controller.\-Spring\-Utilities}}
+}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{classcontroller_1_1_spring_utilities_ab25bdda847d4fe39c5d63cc96c085780}{print\-Sizes} (Component c)
+\item 
+static void \hyperlink{classcontroller_1_1_spring_utilities_aeeff2319a4cfb70260cf61218c17546c}{make\-Grid} (Container parent, int rows, int cols, int initial\-X, int initial\-Y, int x\-Pad, int y\-Pad)
+\item 
+static void \hyperlink{classcontroller_1_1_spring_utilities_a151ce024b64cd12c25ef15bb200236be}{make\-Compact\-Grid} (Container parent, int rows, int cols, int initial\-X, int initial\-Y, int x\-Pad, int y\-Pad)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A 1.\-4 file that provides utility methods for creating form-\/ or grid-\/style layouts with Spring\-Layout. These utilities are used by several programs, such as Spring\-Box and Spring\-Compact\-Grid. 
+
+\subsection{Member Function Documentation}
+\hypertarget{classcontroller_1_1_spring_utilities_a151ce024b64cd12c25ef15bb200236be}{\index{controller\-::\-Spring\-Utilities@{controller\-::\-Spring\-Utilities}!make\-Compact\-Grid@{make\-Compact\-Grid}}
+\index{make\-Compact\-Grid@{make\-Compact\-Grid}!controller::SpringUtilities@{controller\-::\-Spring\-Utilities}}
+\subsubsection[{make\-Compact\-Grid}]{\setlength{\rightskip}{0pt plus 5cm}static void controller.\-Spring\-Utilities.\-make\-Compact\-Grid (
+\begin{DoxyParamCaption}
+\item[{Container}]{parent, }
+\item[{int}]{rows, }
+\item[{int}]{cols, }
+\item[{int}]{initial\-X, }
+\item[{int}]{initial\-Y, }
+\item[{int}]{x\-Pad, }
+\item[{int}]{y\-Pad}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classcontroller_1_1_spring_utilities_a151ce024b64cd12c25ef15bb200236be}
+Aligns the first {\ttfamily rows} $\ast$ {\ttfamily cols} components of {\ttfamily parent} in a grid. Each component in a column is as wide as the maximum preferred width of the components in that column; height is similarly determined for each row. The parent is made just big enough to fit them all.
+
+
+\begin{DoxyParams}{Parameters}
+{\em rows} & number of rows \\
+\hline
+{\em cols} & number of columns \\
+\hline
+{\em initial\-X} & x location to start the grid at \\
+\hline
+{\em initial\-Y} & y location to start the grid at \\
+\hline
+{\em x\-Pad} & x padding between cells \\
+\hline
+{\em y\-Pad} & y padding between cells \\
+\hline
+\end{DoxyParams}
+\hypertarget{classcontroller_1_1_spring_utilities_aeeff2319a4cfb70260cf61218c17546c}{\index{controller\-::\-Spring\-Utilities@{controller\-::\-Spring\-Utilities}!make\-Grid@{make\-Grid}}
+\index{make\-Grid@{make\-Grid}!controller::SpringUtilities@{controller\-::\-Spring\-Utilities}}
+\subsubsection[{make\-Grid}]{\setlength{\rightskip}{0pt plus 5cm}static void controller.\-Spring\-Utilities.\-make\-Grid (
+\begin{DoxyParamCaption}
+\item[{Container}]{parent, }
+\item[{int}]{rows, }
+\item[{int}]{cols, }
+\item[{int}]{initial\-X, }
+\item[{int}]{initial\-Y, }
+\item[{int}]{x\-Pad, }
+\item[{int}]{y\-Pad}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classcontroller_1_1_spring_utilities_aeeff2319a4cfb70260cf61218c17546c}
+Aligns the first {\ttfamily rows} $\ast$ {\ttfamily cols} components of {\ttfamily parent} in a grid. Each component is as big as the maximum preferred width and height of the components. The parent is made just big enough to fit them all.
+
+
+\begin{DoxyParams}{Parameters}
+{\em rows} & number of rows \\
+\hline
+{\em cols} & number of columns \\
+\hline
+{\em initial\-X} & x location to start the grid at \\
+\hline
+{\em initial\-Y} & y location to start the grid at \\
+\hline
+{\em x\-Pad} & x padding between cells \\
+\hline
+{\em y\-Pad} & y padding between cells \\
+\hline
+\end{DoxyParams}
+\hypertarget{classcontroller_1_1_spring_utilities_ab25bdda847d4fe39c5d63cc96c085780}{\index{controller\-::\-Spring\-Utilities@{controller\-::\-Spring\-Utilities}!print\-Sizes@{print\-Sizes}}
+\index{print\-Sizes@{print\-Sizes}!controller::SpringUtilities@{controller\-::\-Spring\-Utilities}}
+\subsubsection[{print\-Sizes}]{\setlength{\rightskip}{0pt plus 5cm}static void controller.\-Spring\-Utilities.\-print\-Sizes (
+\begin{DoxyParamCaption}
+\item[{Component}]{c}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classcontroller_1_1_spring_utilities_ab25bdda847d4fe39c5d63cc96c085780}
+A debugging utility that prints to stdout the component's minimum, preferred, and maximum sizes. 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/controller/Spring\-Utilities.\-java\end{DoxyCompactItemize}

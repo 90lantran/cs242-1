@@ -1,0 +1,109 @@
+<!-- Source copied from: http://getbootstrap.com/2.3.2/examples/hero.html# -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Assignment</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="../static/css/bootstrap.css" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+    </style>
+    <link href="../static/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../static/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../static/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../static/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../static/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="../static/ico/apple-touch-icon-57-precomposed.png">
+                                 
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="/">My Portfolio</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Main hero unit for a primary marketing message or call to action -->
+      <div class="hero-unit">
+      	<button type="button" id="hide" 
+      			class="btn btn-danger" 
+      			style="float:right; 
+      			display:none"
+      			onclick="hide()">Hide</button>
+      	<script type="text/javascript">
+      	function hide() {
+      		$("button#hide").fadeOut()
+      		$("iframe#fdisp").fadeOut()
+      		$("p#flinks").fadeOut()
+      	};
+      	</script>
+      			
+        <h1>{{name}}</h1>
+        <div class="brand">
+        	<iframe src="" style="display:none" id="fdisp" width=100% height="500">
+    		</iframe>
+    	</div>
+    	<p id="flinks" style="display:none">
+    		<a href="" id="fcomment">Comment</a> 
+    		<a href="" id="frevision" style="float: right;">See Revisions</a>
+    	</p>
+      </div>
+     
+	  <!-- Example row of columns -->
+      <div class="row">
+      	{% for file in assignments[name]['files'] %}
+        <div class="span4">
+          <h2>{{file['name']}}</h2>
+          <p>Size: {{file['size']}}</p>
+          <p>Type: {{file['type']}}</p>
+          <p>Version: {{file['version']}}</p>
+          <p><a class="btn" id="filebtn{{loop.index}}">View File</a></p>
+           <script type="text/javascript">
+		  	$("a#filebtn{{loop.index}}").click(function(event) {
+		  		event.preventDefault();
+		  		$("iframe#fdisp").attr("src","{{file['url']}}")
+		  		$("iframe#fdisp").fadeIn("slow")
+		  		$("a#fcomment").attr("href","/{{name}}/{{file['name']}}/comments")
+		  		$("a#frevision").attr("href","/{{name}}/{{file['name']}}")
+		  		$("p#flinks").show()
+		  		$("button#hide").show()
+		  	});
+		  </script>
+        </div>
+        {% endfor %}
+      </div>
+ 	  
+      <footer>
+        <p>&copy; Company 2013</p>
+      </footer>
+
+    </div> <!-- /container -->
+	
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../static/js/jquery.js"></script>
+
+  </body>
+</html>

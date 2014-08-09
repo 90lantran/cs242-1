@@ -1,0 +1,181 @@
+<!-- Source copied from: http://getbootstrap.com/2.3.2/examples/hero.html# -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Portolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="/static/css/bootstrap.css" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+    </style>
+    <link href="/static/css/bootstrap-responsive.css" rel="stylesheet">
+	
+	<link href="/static/css/reply.css" rel="stylesheet">
+	
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../static/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../static/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../static/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" 	 href="../static/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" 				 href="../static/ico/apple-touch-icon-57-precomposed.png">
+                                  
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="/">My Portfolio</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <!-- Main hero unit for a primary marketing message or call to action -->
+      <div class="hero-unit">
+        <h1>{{filename}}</h1>
+        <form action="/{{name}}/{{filename}}/comments" method=post id="addentry">
+	      <dl>
+	        <dt>Name:
+	        <dd><input type=text size=30 name=title>
+	        <dt>Comment:
+	      	<dd><textarea name=text rows=5 cols=40></textarea>
+	        <dd><input type=hidden size=0 name=reply value="None">
+	        <dd><input type="submit" value="Comment" >			        	
+	      </dl>
+    	</form>
+    	<script type="text/javascript">
+         $(document).ready(function() {	        	 
+        	 var form = document.getElementById("addentry");
+        	 
+        	  // to takeover its submit event.
+        	  form.addEventListener("submit", function (event) {
+        	    event.preventDefault();
+        	   	$.post("/{{name}}/{{filename}}/comments",
+        	   			{name: {{name}}, filename: {{filename}} },
+        	   			function(data) {
+        	   		alert("SUBMITTED?")
+        	   	});
+        	  });
+	         
+         });
+		</script>
+      </div>
+	
+      <!-- Example row of columns -->
+      <div class="row" id="lst">
+      	{% for entry in entrylist %}
+      	<div>
+	        <span class="g-hovercard">
+	          <strong>{{entry.title}}
+	          	<a href="javascript:Toggle({{entry[0]}})">
+	          	<button class="replyButton" id="1">
+	          		Reply
+	          	</button>
+	          	</a>
+	          </strong>
+	          <p>{{entry.text|safe}}</p>
+	          	<form action="/{{name}}/{{filename}}/comments" 
+	          		  method=post 
+	          		  class=reply
+	          		  id="ToggleTarget{{entry[0]}}">
+			      <dl>
+			        <dt>Name:
+			        <dd><input type=text size=30 name=title>
+			        <dt>Comment:
+			        <dd><textarea name=text rows=5 cols=40></textarea>
+			        <dd><input type=hidden size=0 name=reply value="{{entry[0]}}">
+			        <dd><input type=submit value=Comment onclick="">
+			      </dl>
+		    	</form>
+		    	{% for reply in replylist %}
+		    		{% if reply[2] == entry[0] %}
+		    		<div class="tab">
+			    		<span>
+			    			<strong>{{reply.title}}</strong>
+			    			<p>{{reply.text}}<p>
+			    		</span>
+		    		</div>
+		    		{% endif %}
+		    	{% endfor %}
+	        </span>
+	        </br>
+	    </div>
+        {% endfor %}
+      </div>
+	  
+      <hr>
+	  
+	  
+      <footer>
+        <p>&copy; Company 2013</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+	<form action="/" id="asdf">
+	<dl>
+		<dd><input type=text size=30 name=title>
+		<dd><input type="submit" value=IDK>
+	</dl>
+	</form>
+	<script>
+	$(document).ready(function() {
+		$("form#asdf").submit(function(event) {
+			event.preventDefault();
+			alert("AHJSKf");
+		});
+	});
+	</script>
+	
+	<script>
+	$(document).ready(function() {
+		$("form.reply").submit(function(event) {
+			event.preventDefault();
+			alert("AHJSKf");
+		});
+	});
+	</script>
+	 
+	<script type="text/javascript">
+	function Toggle(id) {
+		var el = document.getElementById("ToggleTarget" + id);
+		if (el.style.display == "block") {
+			el.style.display = "none";
+		}
+		else {
+			el.style.display = "block";
+		}
+	}
+	</script>
+	
+	<script type="text/javascript">
+		$(document).ready(function() { 
+		    $("form.reply").each(function() {
+		        var button = this;
+		        $(button).click(function() {
+		            alert($(button).attr("id"));
+		            // code to execute when the user clicks on a reply button
+		        });
+		    });
+		});
+	</script>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+Basic commands:
+
+	
+    'longest flight'     -  the longest single flight in the network
+    'shortest flight'    -  the shortest single flight in the network
+    'average distance'   -  the average distance of all the flights in the network
+    'biggest city'       -  the biggest city (by population) served by CSAir
+    'smallest city'      -  the smallest city (by population) served by CSAir
+    'average population' -  the average size (by population) of 
+			    all the cities served by CSAir
+    'sort continents'	 -  a list of the continents served by CSAir 
+			    and which cities are in them
+    'hub cities'   	 -  identifying CSAir's hub cities: cities
+    			    which have the most connecting edges
+    '-c cityname'	 -  find info about a given city, where "cityname" is the
+			    name of a city
+    '-ac cityname' 	 -  add the cityname to the graph (assumes that it doesn't 				    already exist)
+    '-rc cityname'       -  remove any node with the given cityname from the graph 
+    'remove route'       -  remove a route from the graph (you will be prompted for
+		 	    city names)
+    'add route'		 -  add a route between two cities (you will be prompted for
+			    city names and route distance)
+    '-edit cityname'     -  allows you to edit the properties of the city (assumes 				    that it will already exist in the graph)
+    'check path'	 -  allows you to input a list of cities, check if they form 	
+			    a valid path in the network, and see information about 				    route if it is valid: distance, cost, and time.
+    'dijikstra'          -  checks for the shortest path from one city to another
+			    (you will be prompted for input of two city names)
+
